@@ -1,0 +1,198 @@
+{
+  "start": {
+    "text": "In the heart of a futuristic metropolis, you're part of an elite crew of thieves planning the heist of a lifetime: stealing a highly coveted artifact from a state-of-the-art museum. As the heist begins, you face your first major decision. What do you do?",
+    "choices": {
+      "1": {
+        "text": "Hack into the museum's security system to disable alarms.",
+        "next": "hack_security"
+      },
+      "2": {
+        "text": "Scout the museum's layout for the best entry point.",
+        "next": "scout_layout"
+      }
+    }
+  },
+  "hack_security": {
+    "text": "You successfully breach the security system, but as you disable the alarms, you trigger a secondary defense mechanism. You now have two options:",
+    "choices": {
+      "1": {
+        "text": "Quickly override the new defenses before they lock you out.",
+        "next": "override_defenses"
+      },
+      "2": {
+        "text": "Abort the hack and use physical entry methods.",
+        "next": "physical_entry"
+      }
+    }
+  },
+  "scout_layout": {
+    "text": "While scouting the museum, you discover a ventilation shaft that leads directly into the artifact's display room. However, you notice additional guards patrolling the area. You can:",
+    "choices": {
+      "1": {
+        "text": "Create a diversion to distract the guards.",
+        "next": "create_diversion"
+      },
+      "2": {
+        "text": "Attempt to sneak through the ventilation shaft.",
+        "next": "ventilation_shaft"
+      }
+    }
+  },
+  "override_defenses": {
+    "text": "You manage to override the defenses and successfully disable the alarms. With the path clear, you and your crew make your way to the artifact's display room. However, you discover a high-tech lock on the display case. You can:",
+    "choices": {
+      "1": {
+        "text": "Use a lock-picking tool to bypass the high-tech lock.",
+        "next": "lock_picking"
+      },
+      "2": {
+        "text": "Find another way to access the artifact.",
+        "next": "find_alternate_route"
+      }
+    }
+  },
+  "physical_entry": {
+    "text": "Using physical entry methods, you and your team successfully bypass the security measures and enter the museum. However, you encounter an unexpected obstacle: a sophisticated laser grid. You can:",
+    "choices": {
+      "1": {
+        "text": "Navigate through the laser grid with precision.",
+        "next": "navigate_lasers"
+      },
+      "2": {
+        "text": "Search for a way to disable the laser grid.",
+        "next": "disable_lasers"
+      }
+    }
+  },
+  "create_diversion": {
+    "text": "Creating a diversion works perfectly. The guards are distracted, allowing you to enter the artifact's display room through the ventilation shaft. Once inside, you face the challenge of bypassing the display case's high-tech lock. You can:",
+    "choices": {
+      "1": {
+        "text": "Use a lock-picking tool to bypass the high-tech lock.",
+        "next": "lock_picking"
+      },
+      "2": {
+        "text": "Search for a way to disable the lock mechanism.",
+        "next": "disable_lock"
+      }
+    }
+  },
+  "ventilation_shaft": {
+    "text": "Sneaking through the ventilation shaft, you reach the artifact’s display room, but the shaft is narrower than expected. You accidentally trigger a hidden pressure plate that alerts the security system. You can:",
+    "choices": {
+      "1": {
+        "text": "Quickly disable the security system using your hacking skills.",
+        "next": "hack_system"
+      },
+      "2": {
+        "text": "Find a quick escape route and regroup with your team.",
+        "next": "escape_route"
+      }
+    }
+  },
+  "lock_picking": {
+    "text": "Using your lock-picking tool, you successfully bypass the high-tech lock and retrieve the artifact. As you make your escape, you encounter a surprise security detail. You can:",
+    "choices": {
+      "1": {
+        "text": "Fight the security detail and make a daring escape.",
+        "next": "daring_escape"
+      },
+      "2": {
+        "text": "Use stealth to avoid confrontation and escape quietly.",
+        "next": "stealth_escape"
+      }
+    }
+  },
+  "find_alternate_route": {
+    "text": "Finding an alternate route leads you through a series of hidden passages. You manage to reach the artifact but encounter an unexpected security upgrade. You can:",
+    "choices": {
+      "1": {
+        "text": "Attempt to bypass the new security measures.",
+        "next": "bypass_security"
+      },
+      "2": {
+        "text": "Retreat and find another way out.",
+        "next": "find_exit"
+      }
+    }
+  },
+  "navigate_lasers": {
+    "text": "Navigating the laser grid requires precise timing and agility. You and your crew make it through successfully, but you now face the challenge of cracking the high-tech lock on the artifact’s display case. You can:",
+    "choices": {
+      "1": {
+        "text": "Use a lock-picking tool to bypass the high-tech lock.",
+        "next": "lock_picking"
+      },
+      "2": {
+        "text": "Search for a way to disable the lock mechanism.",
+        "next": "disable_lock"
+      }
+    }
+  },
+  "disable_lasers": {
+    "text": "You find a control panel and manage to disable the laser grid. However, this triggers an alarm. You and your crew must act quickly to retrieve the artifact and escape. You can:",
+    "choices": {
+      "1": {
+        "text": "Retrieve the artifact and flee through the nearest exit.",
+        "next": "retrieve_and_flee"
+      },
+      "2": {
+        "text": "Find a way to reset the alarm system and continue the heist.",
+        "next": "reset_alarm"
+      }
+    }
+  },
+  "disable_lock": {
+    "text": "You successfully disable the lock mechanism, but the display case triggers a silent alarm. The museum’s security team is now on high alert. You need to decide how to handle the situation:",
+    "choices": {
+      "1": {
+        "text": "Attempt a quick escape through the museum’s ventilation system.",
+        "next": "ventilation_escape"
+      },
+      "2": {
+        "text": "Create a diversion to distract the security team.",
+        "next": "create_diversion_escape"
+      }
+    }
+  },
+  "hack_system": {
+    "text": "You manage to disable the security system just in time. You and your team make a swift exit with the artifact, successfully completing the heist. You return to your hideout and celebrate your victory.",
+    "choices": {}
+  },
+  "escape_route": {
+    "text": "Finding a quick escape route, you regroup with your team and make a narrow escape from the museum. While you successfully avoid capture, the heist's outcome remains uncertain as the authorities close in.",
+    "choices": {}
+  },
+  "daring_escape": {
+    "text": "You choose to fight the security detail. The confrontation is intense, but you manage to escape with the artifact. The high-profile nature of the heist attracts significant attention, making your escape a challenging endeavor.",
+    "choices": {}
+  },
+  "stealth_escape": {
+    "text": "Using stealth, you avoid the security detail and make a quiet escape. You and your team return to your hideout with the artifact, successfully completing the heist without attracting too much attention.",
+    "choices": {}
+  },
+  "bypass_security": {
+    "text": "Bypassing the new security measures is a complex task, but you and your team manage it. With the artifact in hand, you find a concealed exit and make your escape, leaving the museum’s security baffled.",
+    "choices": {}
+  },
+  "find_exit": {
+    "text": "Retreating from the security upgrade, you find another exit. Although you avoid immediate capture, the authorities are now on high alert, increasing the difficulty of future heists.",
+    "choices": {}
+  },
+  "retrieve_and_flee": {
+    "text": "You retrieve the artifact and flee through the nearest exit. Despite the alarm, you and your team manage to escape and return to your hideout. The heist is successful but will keep you on edge.",
+    "choices": {}
+  },
+  "reset_alarm": {
+    "text": "You find a way to reset the alarm system, allowing you to continue with the heist. You retrieve the artifact and make your escape, though the reset has made the system more unpredictable.",
+    "choices": {}
+  },
+  "ventilation_escape": {
+    "text": "Escaping through the ventilation system proves effective, but the alarm has brought increased security. You and your team navigate through the chaos and eventually return to your hideout with the artifact.",
+    "choices": {}
+  },
+  "create_diversion_escape": {
+    "text": "Creating a diversion allows you to escape with the artifact, but the increased attention from the authorities makes it clear that you’ll need to lay low for a while. The heist is a success, but at a cost.",
+    "choices": {}
+  }
+}

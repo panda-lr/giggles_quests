@@ -1,0 +1,125 @@
+{
+  "start": {
+    "text": "You've been invited to compete in the ultimate intergalactic baking competition hosted by the eccentric alien chef, Chef Zorg. As you enter the cosmic kitchen, you're greeted by a mix of familiar faces and strange alien beings. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Inspect your kitchen station for ingredients.",
+        "next": "inspect_station"
+      },
+      "2": {
+        "text": "Chat with the other competitors to learn about their strategies.",
+        "next": "chat_competitors"
+      }
+    }
+  },
+  "inspect_station": {
+    "text": "You find your station well-stocked with a variety of ingredients, including some mysterious alien spices. You also notice a set of high-tech baking gadgets you’ve never seen before. You can now:",
+    "choices": {
+      "1": {
+        "text": "Experiment with the alien spices and high-tech gadgets to create a unique dish.",
+        "next": "experiment_spices"
+      },
+      "2": {
+        "text": "Stick to traditional recipes and use the familiar gadgets.",
+        "next": "traditional_recipes"
+      }
+    }
+  },
+  "chat_competitors": {
+    "text": "While chatting, you discover that one of the competitors, an alien with a penchant for mischief named Zog, is a notorious saboteur with a history of using underhanded tactics. You decide to:",
+    "choices": {
+      "1": {
+        "text": "Keep an eye on Zog to avoid any trouble.",
+        "next": "watch_saboteur"
+      },
+      "2": {
+        "text": "Focus on your own cooking and ignore the potential threat.",
+        "next": "focus_cooking"
+      }
+    }
+  },
+  "experiment_spices": {
+    "text": "Your innovative use of alien spices and high-tech gadgets leads to a dazzlingly unique dish that causes everyone to experience strange, comical hallucinations. One competitor begins to believe they are an opera singer, while another tries to dance with an invisible partner. Chef Zorg declares that while your dish was the most creative, it wasn't exactly what he was looking for. Although disqualified, everyone has a good laugh and Chef Zorg invites you to join him for a celebratory feast!",
+    "choices": {
+      "1": {
+        "text": "Accept Chef Zorg's invitation and enjoy the feast.",
+        "next": "feast"
+      },
+      "2": {
+        "text": "Politely decline and leave the competition.",
+        "next": "leave_competition"
+      }
+    }
+  },
+  "traditional_recipes": {
+    "text": "You stick to traditional recipes and produce a beautifully crafted dessert. The dish is so well-executed that it earns praise from all the judges. Chef Zorg is impressed with your attention to detail and classic flavors. You win the competition and are celebrated as the best baker in the galaxy! You are awarded a prestigious Galactic Golden Whisk and a year’s supply of rare interstellar ingredients.",
+    "choices": {
+      "1": {
+        "text": "Enjoy your victory and explore more of the galaxy.",
+        "next": "explore_galaxy"
+      },
+      "2": {
+        "text": "Return to your home planet with your new prizes.",
+        "next": "return_home"
+      }
+    }
+  },
+  "watch_saboteur": {
+    "text": "By keeping a vigilant eye on Zog, you manage to prevent them from interfering with your cooking. Your dish turns out wonderfully, and Chef Zorg is pleased with your resilience. You are awarded first place in the competition and praised for your skill and perseverance. Zog is disqualified for their attempts to sabotage others, and you leave the competition with a sense of accomplishment and a prize chest full of cosmic baking tools.",
+    "choices": {
+      "1": {
+        "text": "Celebrate your victory with the other competitors.",
+        "next": "celebrate_victory"
+      },
+      "2": {
+        "text": "Return home and continue your baking adventures.",
+        "next": "baking_adventures"
+      }
+    }
+  },
+  "focus_cooking": {
+    "text": "Ignoring Zog proves to be a mistake. They manage to tamper with your ingredients, leading to a disastrous outcome. Your dish collapses into a gelatinous mess. Chef Zorg is not impressed, and the competition’s prize goes to Zog. You leave the competition with a lesson learned and a resolve to never underestimate the competition again.",
+    "choices": {
+      "1": {
+        "text": "Reflect on the experience and improve your skills.",
+        "next": "reflect_improve"
+      },
+      "2": {
+        "text": "Seek out another competition to redeem yourself.",
+        "next": "seek_competition"
+      }
+    }
+  },
+  "feast": {
+    "text": "At the celebratory feast, you enjoy an array of intergalactic delicacies and share stories with the other competitors. Chef Zorg offers you a special place in his culinary team as a guest chef. You accept and embark on new culinary adventures across the galaxy.",
+    "choices": {}
+  },
+  "leave_competition": {
+    "text": "You leave the competition feeling a bit disheartened but relieved. The experience was unique, and you reflect on the fun and laughter with the other competitors. You vow to return next year with a better strategy.",
+    "choices": {}
+  },
+  "explore_galaxy": {
+    "text": "With your new Galactic Golden Whisk and rare ingredients, you set off to explore more of the galaxy. Your reputation as a top baker precedes you, and you find yourself invited to other prestigious culinary events and festivals.",
+    "choices": {}
+  },
+  "return_home": {
+    "text": "Returning to your home planet with your prizes, you’re greeted as a hero. You open a new bakery with your rare ingredients, and it becomes a sensation across your home world. Your reputation as an intergalactic baker is solidified.",
+    "choices": {}
+  },
+  "celebrate_victory": {
+    "text": "You celebrate your victory with the other competitors, sharing stories and enjoying cosmic treats. The camaraderie and new friendships make the experience even more rewarding. You receive invitations to future competitions and culinary gatherings.",
+    "choices": {}
+  },
+  "baking_adventures": {
+    "text": "You return home with a sense of accomplishment and your new cosmic baking tools. You continue your baking adventures, creating new recipes and sharing your experiences with aspiring bakers.",
+    "choices": {}
+  },
+  "reflect_improve": {
+    "text": "You take time to reflect on the experience and work on improving your skills. With renewed focus and determination, you prepare for future baking challenges with a greater sense of confidence.",
+    "choices": {}
+  },
+  "seek_competition": {
+    "text": "Determined to redeem yourself, you seek out another baking competition. Your next performance is a huge success, and you gain recognition as a talented and resilient baker.",
+    "choices": {}
+  }
+}

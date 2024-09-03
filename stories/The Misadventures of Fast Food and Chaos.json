@@ -1,0 +1,190 @@
+{
+  "start": {
+    "text": "You've just started your first day at 'Burgers & Beyond,' a peculiar fast food joint known for its eccentric customers and unusual happenings. As you familiarize yourself with the chaos of the restaurant, you notice some strange occurrences: unusual requests from customers and odd noises from various parts of the restaurant. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Attend to the line of eccentric customers waiting for their orders.",
+        "next": "serve_customers"
+      },
+      "2": {
+        "text": "Investigate a series of odd noises coming from the basement.",
+        "next": "explore_basement"
+      }
+    }
+  },
+  "serve_customers": {
+    "text": "As you serve the quirky customers, one particularly demanding customer asks for a 'Quantum Burger' made with ingredients from different dimensions. Meanwhile, the fryer starts making strange noises, and a small portal flickers near the condiment station. What do you do?",
+    "choices": {
+      "1": {
+        "text": "Try to make the 'Quantum Burger' using the bizarre ingredients.",
+        "next": "make_quantum_burger"
+      },
+      "2": {
+        "text": "Check on the fryer and the flickering portal.",
+        "next": "check_fryer_portal"
+      }
+    }
+  },
+  "explore_basement": {
+    "text": "You find yourself in a cluttered basement filled with old fast food memorabilia and an odd contraption that looks like a portal generator. It’s buzzing and making weird noises. Next to it, there’s a mysterious chest with an intricate lock and a stack of dusty old files. What do you do next?",
+    "choices": {
+      "1": {
+        "text": "Try to turn off the portal generator.",
+        "next": "turn_off_generator"
+      },
+      "2": {
+        "text": "Attempt to open the mysterious chest.",
+        "next": "open_chest"
+      },
+      "3": {
+        "text": "Investigate the dusty old files.",
+        "next": "examine_files"
+      }
+    }
+  },
+  "make_quantum_burger": {
+    "text": "The 'Quantum Burger' turns out to be a hit with the customer, who leaves with a satisfied grin. However, the strange ingredients cause unpredictable effects: the entire kitchen starts floating, and the lights flicker erratically. The staff is in a frenzy, and you need to decide how to handle this situation. What do you do next?",
+    "choices": {
+      "1": {
+        "text": "Attempt to stabilize the kitchen using available tools.",
+        "next": "stabilize_kitchen"
+      },
+      "2": {
+        "text": "Seek help from your boss or colleagues.",
+        "next": "call_boss"
+      },
+      "3": {
+        "text": "Try to calm the staff and manage the chaos.",
+        "next": "manage_chaos"
+      }
+    }
+  },
+  "check_fryer_portal": {
+    "text": "You discover that the fryer is malfunctioning and has caused a small, localized portal to open. As you attempt to fix the fryer, the portal starts pulling in items from the kitchen, including ingredients and equipment. How do you handle this?",
+    "choices": {
+      "1": {
+        "text": "Shut down the fryer and close the portal.",
+        "next": "shut_down_fryer"
+      },
+      "2": {
+        "text": "Try to stabilize the portal before it causes more damage.",
+        "next": "stabilize_portal"
+      },
+      "3": {
+        "text": "Alert the staff and try to contain the situation.",
+        "next": "contain_situation"
+      }
+    }
+  },
+  "turn_off_generator": {
+    "text": "You manage to shut off the portal generator, but it’s not without consequences. The basement starts to collapse, and you have to find a way out quickly. There are two exits: a narrow emergency exit and an old service tunnel. What do you do?",
+    "choices": {
+      "1": {
+        "text": "Escape through the emergency exit.",
+        "next": "emergency_exit"
+      },
+      "2": {
+        "text": "Try to escape through the service tunnel.",
+        "next": "service_tunnel"
+      },
+      "3": {
+        "text": "Attempt to secure any important items before leaving.",
+        "next": "secure_items"
+      }
+    }
+  },
+  "open_chest": {
+    "text": "You manage to open the mysterious chest, revealing an ancient recipe book and a set of enchanted utensils. The utensils glow with a magical aura, and the recipe book contains unusual and fantastical recipes. What do you do with these items?",
+    "choices": {
+      "1": {
+        "text": "Use the enchanted utensils to cook something extraordinary.",
+        "next": "cook_magical_dish"
+      },
+      "2": {
+        "text": "Take the recipe book and utensils to your boss for advice.",
+        "next": "show_boss"
+      },
+      "3": {
+        "text": "Examine the recipes in the book for any useful information.",
+        "next": "examine_recipes"
+      }
+    }
+  },
+  "examine_files": {
+    "text": "The dusty old files reveal blueprints for the portal generator and detailed notes on interdimensional ingredients. Among the papers, you find a note warning about a 'critical flaw' in the generator design. What do you do with this information?",
+    "choices": {
+      "1": {
+        "text": "Try to fix the generator using the blueprints.",
+        "next": "fix_generator"
+      },
+      "2": {
+        "text": "Report the findings to your boss immediately.",
+        "next": "report_findings"
+      },
+      "3": {
+        "text": "Keep the information to yourself and continue your day.",
+        "next": "continue_day"
+      }
+    }
+  },
+  "stabilize_kitchen": {
+    "text": "You successfully stabilize the kitchen, but the effects of the Quantum Burger have caused a food fight among the staff. Your boss arrives just in time to see the chaos. Surprisingly, they are impressed with your quick thinking and offer you a permanent position. Congratulations, you've saved the day!",
+    "choices": {}
+  },
+  "call_boss": {
+    "text": "Your boss arrives and helps calm the situation. However, they are not pleased with the floating kitchen and reprimand you for not handling it yourself. You are given a warning but allowed to continue working.",
+    "choices": {}
+  },
+  "manage_chaos": {
+    "text": "You manage to calm the staff and get things back under control. However, the aftermath of the Quantum Burger’s effects leaves the restaurant in disarray. You receive mixed reviews from the boss and are assigned extra tasks to make up for the mess.",
+    "choices": {}
+  },
+  "shut_down_fryer": {
+    "text": "You successfully shut down the fryer and close the portal. However, the fryer is severely damaged and needs replacement. The restaurant faces a brief closure while repairs are made. You are left to manage the cleanup and deal with customer complaints.",
+    "choices": {}
+  },
+  "stabilize_portal": {
+    "text": "You manage to stabilize the portal, but it requires frequent adjustments. The portal continues to create minor disruptions in the kitchen. You must find a long-term solution while dealing with the ongoing chaos and increasing customer dissatisfaction.",
+    "choices": {}
+  },
+  "contain_situation": {
+    "text": "You alert the staff and manage to contain the situation, but not before some ingredients and equipment are lost. The restaurant suffers a temporary loss in inventory, and you face a reprimand for the incident.",
+    "choices": {}
+  },
+  "emergency_exit": {
+    "text": "You escape through the emergency exit just in time. The basement is completely destroyed, but you make it out with some old memorabilia that turns out to be valuable. You manage to recover from the disaster and find a new job.",
+    "choices": {}
+  },
+  "service_tunnel": {
+    "text": "The service tunnel leads you to a hidden storage area with old supplies and a way to safely exit the building. However, you are left to deal with the fallout of the basement collapse and the restaurant's temporary closure. You’re offered a lesser role when you return to work.",
+    "choices": {}
+  },
+  "secure_items": {
+    "text": "You manage to secure some important items before leaving, but the basement collapse results in a significant loss of resources. The restaurant faces a prolonged closure and you’re left to deal with the aftermath of the disaster.",
+    "choices": {}
+  },
+  "cook_magical_dish": {
+    "text": "Using the enchanted utensils, you cook a magical dish that impresses everyone in the restaurant. This boosts your reputation and leads to a new menu item that becomes a huge hit. Your creative cooking earns you a permanent spot as the head chef.",
+    "choices": {}
+  },
+  "show_boss": {
+    "text": "Your boss is intrigued by the recipe book and utensils. They decide to use the magical recipes to create a special menu for the restaurant. However, the magical dishes cause a series of unpredictable effects, leading to a series of amusing yet problematic situations. You’re promoted to a managerial position to handle the chaos.",
+    "choices": {}
+  },
+  "examine_recipes": {
+    "text": "Examining the recipes reveals some unique and potent ingredients that could enhance the restaurant’s offerings. You use these insights to experiment with new dishes, which attract a lot of attention and lead to a successful promotion.",
+    "choices": {}
+  },
+  "fix_generator": {
+    "text": "Using the blueprints, you manage to fix the portal generator, but not without causing some additional minor disruptions. The restaurant appreciates your initiative, but you are left dealing with the repairs and customer complaints.",
+    "choices": {}
+  },
+  "report_findings": {
+    "text": "Reporting your findings leads to a major investigation into the portal generator’s flaws. The restaurant faces temporary shutdowns for safety checks, and you are put on special projects to prevent future issues. You gain recognition for your efforts but face a challenging work environment.",
+    "choices": {}
+  },
+  "continue_day": {
+    "text": "Keeping the information to yourself, you continue your day. The portal generator eventually causes a significant malfunction, leading to a major disruption in the restaurant. You are held responsible for not addressing the issue sooner.",
+    "choices": {}
+  }
+}

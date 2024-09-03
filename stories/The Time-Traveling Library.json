@@ -1,0 +1,184 @@
+{
+  "start": {
+    "text": "You and your friends find an old library with time-traveling books. You see three books glowing mysteriously: 'Ancient Egypt: Secrets of the Pharaohs', 'The Renaissance: Hidden Art', and 'The Future: Unknown Worlds'. Which one do you pick?",
+    "choices": {
+      "1": {
+        "text": "The Egyptian book.",
+        "next": "egypt"
+      },
+      "2": {
+        "text": "The Renaissance book.",
+        "next": "renaissance"
+      },
+      "3": {
+        "text": "The futuristic book.",
+        "next": "future"
+      }
+    }
+  },
+  "egypt": {
+    "text": "Opening the Egyptian book, you’re transported to a tomb where an ancient trap activates. You see two options: a mysterious sarcophagus or a hidden passage. What do you do?",
+    "choices": {
+      "1": {
+        "text": "Open the sarcophagus.",
+        "next": "sarcophagus"
+      },
+      "2": {
+        "text": "Enter the hidden passage.",
+        "next": "passage"
+      }
+    }
+  },
+  "renaissance": {
+    "text": "The Renaissance book takes you to an artist's studio during a secretive meeting. You spot a locked chest or a suspicious painting with hidden clues. Choose wisely!",
+    "choices": {
+      "1": {
+        "text": "Open the locked chest.",
+        "next": "chest"
+      },
+      "2": {
+        "text": "Investigate the painting.",
+        "next": "painting"
+      }
+    }
+  },
+  "future": {
+    "text": "In the futuristic book, you arrive at a high-tech lab. The lab is malfunctioning, and you must choose between fixing the main console or examining a strange device.",
+    "choices": {
+      "1": {
+        "text": "Fix the main console.",
+        "next": "console"
+      },
+      "2": {
+        "text": "Examine the strange device.",
+        "next": "device"
+      }
+    }
+  },
+  "sarcophagus": {
+    "text": "Opening the sarcophagus releases a ghostly figure who warns you of a curse. You can either:",
+    "choices": {
+      "1": {
+        "text": "Attempt to break the curse with a nearby artifact.",
+        "next": "artifact"
+      },
+      "2": {
+        "text": "Escape the tomb and find another way out.",
+        "next": "escape"
+      }
+    }
+  },
+  "passage": {
+    "text": "Entering the hidden passage, you discover a treasure and a dangerous trap. You must:",
+    "choices": {
+      "1": {
+        "text": "Disarm the trap and take the treasure.",
+        "next": "disarm"
+      },
+      "2": {
+        "text": "Leave the treasure and find a safer exit.",
+        "next": "exit"
+      }
+    }
+  },
+  "chest": {
+    "text": "Opening the locked chest reveals a powerful artifact and a clue to escape. The artifact starts emitting strange energy. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the artifact to solve the next puzzle.",
+        "next": "artifact_use"
+      },
+      "2": {
+        "text": "Store the artifact and find a way out.",
+        "next": "escape_artifact"
+      }
+    }
+  },
+  "painting": {
+    "text": "The suspicious painting hides a code that unlocks a secret room. Inside, you find a critical clue and a hidden enemy. You must:",
+    "choices": {
+      "1": {
+        "text": "Confront the hidden enemy.",
+        "next": "enemy"
+      },
+      "2": {
+        "text": "Take the clue and escape quickly.",
+        "next": "clue_escape"
+      }
+    }
+  },
+  "console": {
+    "text": "Fixing the main console stabilizes the lab but triggers a security alert. You now need to:",
+    "choices": {
+      "1": {
+        "text": "Evade the security drones and search for a time-travel device.",
+        "next": "drones"
+      },
+      "2": {
+        "text": "Use the lab's features to gain more control over the situation.",
+        "next": "control"
+      }
+    }
+  },
+  "device": {
+    "text": "Examining the strange device, you find it’s a malfunctioning time-travel tool. You can:",
+    "choices": {
+      "1": {
+        "text": "Repair the device to travel to different eras.",
+        "next": "repair_device"
+      },
+      "2": {
+        "text": "Leave the device and search for another way out.",
+        "next": "search_exit"
+      }
+    }
+  },
+  "artifact": {
+    "text": "Using the artifact, you manage to break the curse and discover a hidden exit from the tomb. You safely return to the library.",
+    "choices": {}
+  },
+  "escape": {
+    "text": "Escaping the tomb leads you to a different part of ancient Egypt where you find a clue to return home. You safely make it back to the library.",
+    "choices": {}
+  },
+  "disarm": {
+    "text": "Disarming the trap and taking the treasure helps you escape the tomb with newfound wealth and knowledge. You return to the library successfully.",
+    "choices": {}
+  },
+  "exit": {
+    "text": "Finding a safer exit allows you to escape the tomb without the treasure. You return to the library, avoiding the curse.",
+    "choices": {}
+  },
+  "artifact_use": {
+    "text": "Using the artifact solves the next puzzle and allows you to return to the library with valuable knowledge about ancient Egypt.",
+    "choices": {}
+  },
+  "escape_artifact": {
+    "text": "Storing the artifact and escaping safely leads you back to the library. You have a clue about the artifact's powers.",
+    "choices": {}
+  },
+  "enemy": {
+    "text": "Confronting the hidden enemy, you defeat them and uncover a secret passage leading back to the library.",
+    "choices": {}
+  },
+  "clue_escape": {
+    "text": "Taking the clue and escaping quickly brings you back to the library with vital information about the painting.",
+    "choices": {}
+  },
+  "drones": {
+    "text": "Evading the security drones, you find a time-travel device that lets you return to your own time safely.",
+    "choices": {}
+  },
+  "control": {
+    "text": "Using the lab’s features gives you control over the situation, allowing you to fix the main console and return to your time.",
+    "choices": {}
+  },
+  "repair_device": {
+    "text": "Repairing the time-travel device allows you to explore other eras and return to your own time with new experiences.",
+    "choices": {}
+  },
+  "search_exit": {
+    "text": "Searching for another way out leads you to a safe return to your own time, though you leave the device behind.",
+    "choices": {}
+  }
+}

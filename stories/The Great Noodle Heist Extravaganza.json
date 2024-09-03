@@ -1,0 +1,164 @@
+{
+  "start": {
+    "text": "You’ve just moved into a new apartment in the zany town of Noodleville, famous for its eccentricities and undying love for noodles. On your first day, your overenthusiastic neighbor hands you a flyer for the town-wide Noodle Festival. The flyer features a noodle mascot doing a disco dance. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Check out the festival to see what all the fuss is about.",
+        "next": "festival_explore"
+      },
+      "2": {
+        "text": "Head to the local noodle shop for a taste of their famous noodles.",
+        "next": "noodle_shop"
+      },
+      "3": {
+        "text": "Visit the town square to see if there are any other exciting events happening.",
+        "next": "town_square"
+      }
+    }
+  },
+  "festival_explore": {
+    "text": "The festival is a noodle lover’s paradise with noodle-shaped bouncy castles, a noodle eating contest, a noodle art competition, and a dance-off featuring the town’s noodle mascot. As you wander around, you spot a suspicious figure in a giant noodle costume sneaking around the noodle stands. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the noodle costume-wearing figure.",
+        "next": "suspicious_figure"
+      },
+      "2": {
+        "text": "Join the noodle dance-off and show off your moves.",
+        "next": "dance_off"
+      },
+      "3": {
+        "text": "Enter the noodle art competition and create a noodle masterpiece.",
+        "next": "noodle_art"
+      },
+      "4": {
+        "text": "Try out the noodle eating contest for a fun challenge.",
+        "next": "noodle_contest"
+      }
+    }
+  },
+  "noodle_shop": {
+    "text": "The noodle shop is bustling with locals wearing noodle hats. As you dig into a bowl of noodles, the shop owner, Mr. Wobble, informs you that their secret noodle recipe has been stolen. Mr. Wobble dramatically sighs and waves a ladle in the air. You can:",
+    "choices": {
+      "1": {
+        "text": "Ask Mr. Wobble for more details about the noodle heist.",
+        "next": "noodle_theft"
+      },
+      "2": {
+        "text": "Finish your meal and head to the festival to see if you can find any clues.",
+        "next": "festival_explore"
+      },
+      "3": {
+        "text": "Help Mr. Wobble create a new noodle recipe to save the day.",
+        "next": "new_recipe"
+      },
+      "4": {
+        "text": "Investigate the shop for clues about the thief.",
+        "next": "shop_clues"
+      }
+    }
+  },
+  "town_square": {
+    "text": "The town square is filled with quirky shops and street performers. You notice a vendor selling noodle-themed merchandise, a fortune teller with a noodle crystal ball, and a mime who’s pretending to be trapped in a giant noodle. You can:",
+    "choices": {
+      "1": {
+        "text": "Buy some noodle-themed merchandise.",
+        "next": "noodle_merch"
+      },
+      "2": {
+        "text": "Get a fortune reading from the noodle crystal ball.",
+        "next": "fortune_teller"
+      },
+      "3": {
+        "text": "Help the mime escape from the giant noodle.",
+        "next": "mime_help"
+      }
+    }
+  },
+  "suspicious_figure": {
+    "text": "You follow the noodle costume-wearing figure and discover they’re actually the town’s notorious prankster, Benny the Noodle Ninja. Benny’s plan is to replace all the festival noodles with spaghetti. You have to decide how to handle this:",
+    "choices": {
+      "1": {
+        "text": "Help Benny with his spaghetti scheme and create the ultimate noodle prank.",
+        "next": "help_prankster"
+      },
+      "2": {
+        "text": "Stop Benny and alert the festival organizers about his nefarious plan.",
+        "next": "alert_organizers"
+      },
+      "3": {
+        "text": "Challenge Benny to a noodle duel to settle things.",
+        "next": "noodle_duel"
+      },
+      "4": {
+        "text": "Try to convince Benny to reveal his plan to the festival goers.",
+        "next": "reveal_plan"
+      }
+    }
+  },
+  "dance_off": {
+    "text": "You enter the noodle dance-off and bust out some wild moves that leave everyone in awe. The noodle mascot gets so excited that it starts dancing along with you. You win the contest and earn a year's supply of noodles as your prize. The festival ends with a spectacular noodle-themed fireworks display and a grand parade with noodle floats.",
+    "choices": {}
+  },
+  "noodle_contest": {
+    "text": "You sign up for the noodle eating contest. As you gorge on noodles, you discover a hidden talent for competitive eating. You win the contest and receive a golden noodle trophy. Later, you find out that the contest was secretly organized to distract people from Benny’s prank. Your win helps you gain recognition and a place in the festival’s VIP section.",
+    "choices": {}
+  },
+  "noodle_art": {
+    "text": "You enter the noodle art competition and create an elaborate noodle sculpture of the town mascot. Your creation wows the judges, and you win the 'Golden Noodle Art' award. The festival organizers showcase your art in a special gallery, and you’re celebrated with a noodle-themed reception.",
+    "choices": {}
+  },
+  "new_recipe": {
+    "text": "You and Mr. Wobble brainstorm a new noodle recipe using unusual ingredients like rainbow-colored noodles and enchanted garlic. The new recipe turns out to be a hit at the festival. Everyone loves the quirky new dish, and Mr. Wobble names it after you. The festival ends with a special ceremony where you’re awarded the Golden Ladle for your creativity.",
+    "choices": {}
+  },
+  "shop_clues": {
+    "text": "You search the noodle shop for clues and find a mysterious note hidden in a noodle pot. The note hints at a secret meeting place where the thief might be. You decide to investigate further:",
+    "choices": {
+      "1": {
+        "text": "Follow the clues to the secret meeting place.",
+        "next": "secret_meeting"
+      },
+      "2": {
+        "text": "Show the note to Mr. Wobble and ask for his help.",
+        "next": "wobble_help"
+      }
+    }
+  },
+  "mime_help": {
+    "text": "You help the mime escape from the giant noodle, and they reward you with a magical noodle hat that grants you temporary noodle powers. With your new hat, you perform amazing feats at the festival, drawing crowds and earning the admiration of the town.",
+    "choices": {}
+  },
+  "fortune_teller": {
+    "text": "The fortune teller peers into the noodle crystal ball and predicts that a grand adventure awaits you involving noodles and mischief. Intrigued, you head to the festival, ready for whatever comes next. The prediction turns out to be true as you encounter various quirky events.",
+    "choices": {}
+  },
+  "noodle_merch": {
+    "text": "You buy some quirky noodle-themed merchandise, including a noodle-shaped pillow and a noodle-themed T-shirt. The merchandise becomes a hit among your friends, and you become known as the most stylish noodle fan in town.",
+    "choices": {}
+  },
+  "help_prankster": {
+    "text": "You and Benny the Noodle Ninja execute the spaghetti scheme flawlessly. The festival-goers are initially confused but soon find the prank hilarious. Benny reveals that the prank was meant to bring more fun and chaos to the festival. The town embraces the prank, and you both become local legends for pulling off the most epic noodle prank in history. The festival ends with you receiving a trophy shaped like a giant noodle and Benny hosting a noodle-themed afterparty.",
+    "choices": {}
+  },
+  "alert_organizers": {
+    "text": "The festival organizers thank you for stopping Benny the Noodle Ninja. They manage to prevent the spaghetti invasion, but the festival is slightly less exciting due to the commotion. You receive a ‘Noodle Vigilante’ badge and a small consolation prize, but the town is buzzing about what could have been. Despite the lessened excitement, you gain a reputation as a hero of the festival.",
+    "choices": {}
+  },
+  "noodle_duel": {
+    "text": "You challenge Benny to a noodle duel, where you both must create the most impressive noodle dish. Benny concocts a bizarre noodle tower, while you craft a dazzling noodle sculpture. The festival crowd votes for the most creative dish, and you win by a narrow margin. Benny admits defeat but congratulates you, and you both end up as the festival’s headline entertainment, with a noodle-themed parade in your honor.",
+    "choices": {}
+  },
+  "reveal_plan": {
+    "text": "You convince Benny to reveal his spaghetti plan to the festival-goers. The crowd is intrigued and impressed by Benny’s elaborate scheme. Benny’s honesty and creativity are celebrated, and he’s offered a special role as the festival’s prank coordinator. The festival ends with a unique blend of noodles and spaghetti, and Benny thanks you for your role in making the festival unforgettable.",
+    "choices": {}
+  },
+  "secret_meeting": {
+    "text": "You follow the clues to a hidden underground noodle lab where the stolen recipe is being used to create a new noodle dish. You discover that the thief is a rival noodle chef trying to make a name for themselves. After a tense confrontation, you manage to retrieve the recipe and prevent the rival from launching their noodle empire. The festival concludes with a dramatic reveal of the recipe and a celebration of your bravery.",
+    "choices": {}
+  },
+  "wobble_help": {
+    "text": "You show the note to Mr. Wobble, who is thrilled to have a lead on the thief. Together, you follow the clues to the secret meeting place and catch the rival noodle chef red-handed. The thief confesses and returns the stolen recipe. The festival ends with a grand feast featuring the original recipe, and you and Mr. Wobble are hailed as heroes.",
+    "choices": {}
+  }
+}

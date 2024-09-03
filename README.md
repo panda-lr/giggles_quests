@@ -1,2 +1,2 @@
-# giggles_quests
-text based story game
+# giggles-quests
+ text based story game

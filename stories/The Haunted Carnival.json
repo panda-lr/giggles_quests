@@ -1,0 +1,1007 @@
+{
+  "start": {
+    "text": "You and your friends have stumbled upon an abandoned carnival that locals claim is haunted. As you approach the entrance, you see several intriguing options. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Enter the main tent to investigate.",
+        "next": "main_tent"
+      },
+      "2": {
+        "text": "Explore the funhouse with its eerie mirrors.",
+        "next": "funhouse"
+      },
+      "3": {
+        "text": "Check out the old carousel that’s still eerily turning.",
+        "next": "carousel"
+      }
+    }
+  },
+  "main_tent": {
+    "text": "Entering the main tent, you find dusty seats and an old stage. The atmosphere is tense. You can:",
+    "choices": {
+      "1": {
+        "text": "Search backstage for hidden clues.",
+        "next": "backstage"
+      },
+      "2": {
+        "text": "Inspect the old performance props on the stage.",
+        "next": "stage_props"
+      }
+    }
+  },
+  "funhouse": {
+    "text": "The funhouse’s distorted mirrors create unsettling reflections. You notice strange noises coming from deeper inside. You can:",
+    "choices": {
+      "1": {
+        "text": "Follow the noises to see what’s making them.",
+        "next": "follow_noises"
+      },
+      "2": {
+        "text": "Examine the mirrors for hidden messages.",
+        "next": "mirrors"
+      }
+    }
+  },
+  "carousel": {
+    "text": "The carousel spins slowly despite no visible power source. You notice some odd symbols carved into the horses. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the symbols carved into the horses.",
+        "next": "carousel_symbols"
+      },
+      "2": {
+        "text": "Try to stop the carousel and examine the mechanism.",
+        "next": "stop_carousel"
+      }
+    }
+  },
+  "backstage": {
+    "text": "Backstage, you find old costumes and a mysterious locked chest. You can:",
+    "choices": {
+      "1": {
+        "text": "Attempt to open the chest with a crowbar you find.",
+        "next": "open_chest"
+      },
+      "2": {
+        "text": "Look for a key to the chest among the costumes.",
+        "next": "find_key"
+      }
+    }
+  },
+  "stage_props": {
+    "text": "Inspecting the stage props, you find an old diary with cryptic notes about the carnival. The diary mentions a hidden room. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the hidden room mentioned in the diary.",
+        "next": "hidden_room"
+      },
+      "2": {
+        "text": "Read more of the diary for additional clues.",
+        "next": "read_diary"
+      }
+    }
+  },
+  "follow_noises": {
+    "text": "Following the noises, you discover a hidden passage behind a mirror. The passage leads to a dark room with strange symbols on the walls. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the symbols for any significance.",
+        "next": "examine_symbols"
+      },
+      "2": {
+        "text": "Look for any other exits from the dark room.",
+        "next": "search_exits"
+      }
+    }
+  },
+  "mirrors": {
+    "text": "Examining the mirrors, you find a hidden message written in the reflection. The message seems to lead to the carousel. You can:",
+    "choices": {
+      "1": {
+        "text": "Head to the carousel to follow the message.",
+        "next": "carousel_follow"
+      },
+      "2": {
+        "text": "Try to decipher the message further.",
+        "next": "decipher_message"
+      }
+    }
+  },
+  "carousel_symbols": {
+    "text": "Investigating the symbols on the carousel horses, you realize they form a map of the carnival. The map points to a location within the funhouse. You can:",
+    "choices": {
+      "1": {
+        "text": "Go to the funhouse to follow the map’s directions.",
+        "next": "funhouse_map"
+      },
+      "2": {
+        "text": "Continue exploring the carousel for more clues.",
+        "next": "carousel_explore"
+      }
+    }
+  },
+  "stop_carousel": {
+    "text": "Stopping the carousel reveals a hidden compartment with a dusty key. The key looks old but could be important. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the key to try and open the chest backstage.",
+        "next": "use_key"
+      },
+      "2": {
+        "text": "Explore the carousel further for additional clues.",
+        "next": "carousel_explore"
+      }
+    }
+  },
+  "open_chest": {
+    "text": "Opening the chest reveals a collection of old carnival tickets and a strange amulet. The amulet seems to glow slightly. You can:",
+    "choices": {
+      "1": {
+        "text": "Inspect the amulet for more clues.",
+        "next": "amulet_clues"
+      },
+      "2": {
+        "text": "Continue searching the backstage area.",
+        "next": "search_backstage"
+      }
+    }
+  },
+  "find_key": {
+    "text": "Finding a key among the costumes, you return to the chest and unlock it. Inside, you find an old map of the carnival with marked locations. You can:",
+    "choices": {
+      "1": {
+        "text": "Follow the map to investigate the marked locations.",
+        "next": "map_locations"
+      },
+      "2": {
+        "text": "Examine the map for any additional hidden details.",
+        "next": "map_details"
+      }
+    }
+  },
+  "hidden_room": {
+    "text": "Searching for the hidden room mentioned in the diary, you discover a secret door behind a wall. The room contains old carnival records and a dusty chest. You can:",
+    "choices": {
+      "1": {
+        "text": "Open the chest to see what’s inside.",
+        "next": "chest_contents"
+      },
+      "2": {
+        "text": "Review the carnival records for more information.",
+        "next": "review_records"
+      }
+    }
+  },
+  "read_diary": {
+    "text": "Reading more of the diary, you uncover a description of a hidden vault beneath the carnival. The diary suggests a way to access it from the carousel area. You can:",
+    "choices": {
+      "1": {
+        "text": "Head to the carousel to find the vault entrance.",
+        "next": "vault_entrance"
+      },
+      "2": {
+        "text": "Continue searching the main tent for more clues.",
+        "next": "main_tent_search"
+      }
+    }
+  },
+  "examine_symbols": {
+    "text": "Examining the symbols in the dark room, you notice they align with a pattern found on the carnival map. The pattern points to the carousel. You can:",
+    "choices": {
+      "1": {
+        "text": "Go to the carousel to follow the pattern’s clues.",
+        "next": "carousel_pattern"
+      },
+      "2": {
+        "text": "Search the dark room for other hidden elements.",
+        "next": "dark_room_search"
+      }
+    }
+  },
+  "search_exits": {
+    "text": "Searching for other exits in the dark room, you discover a hidden passage leading to the carnival’s underground area. You find yourself in a maze of old tunnels. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the tunnels for more clues.",
+        "next": "tunnels_explore"
+      },
+      "2": {
+        "text": "Find your way back to the surface and investigate other areas.",
+        "next": "surface_return"
+      }
+    }
+  },
+  "carousel_follow": {
+    "text": "Following the message from the mirrors, you find a hidden trapdoor beneath the carousel. Opening it, you discover a descent into an underground chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Descend into the chamber to investigate.",
+        "next": "underground_chamber"
+      },
+      "2": {
+        "text": "Search the carousel area for more clues.",
+        "next": "carousel_search"
+      }
+    }
+  },
+  "decipher_message": {
+    "text": "Deciphering the hidden message from the mirrors leads you to a clue about a secret passage in the funhouse. You can:",
+    "choices": {
+      "1": {
+        "text": "Head to the funhouse to find the secret passage.",
+        "next": "funhouse_secret"
+      },
+      "2": {
+        "text": "Continue exploring other areas of the carnival.",
+        "next": "carnival_explore"
+      }
+    }
+  },
+  "funhouse_map": {
+    "text": "Following the map’s directions within the funhouse, you discover a hidden door behind a mirror. Opening it reveals a room filled with old carnival props and a mysterious locked box. You can:",
+    "choices": {
+      "1": {
+        "text": "Try to unlock the box with any available tools.",
+        "next": "unlock_box"
+      },
+      "2": {
+        "text": "Search the room for clues about the box.",
+        "next": "search_funhouse"
+      }
+    }
+  },
+  "carousel_explore": {
+    "text": "Exploring the carousel further, you find more symbols and a hidden compartment with old carnival tickets. The tickets seem to have clues for another area. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the tickets for hidden information.",
+        "next": "tickets_info"
+      },
+      "2": {
+        "text": "Use the tickets to gain access to a restricted area.",
+        "next": "restricted_area"
+      }
+    }
+  },
+  "use_key": {
+    "text": "Using the key to open the chest backstage reveals an old journal and a map of the carnival’s secret locations. You can:",
+    "choices": {
+      "1": {
+        "text": "Follow the map to the secret locations.",
+        "next": "secret_locations"
+      },
+      "2": {
+        "text": "Read the journal for more background information.",
+        "next": "read_journal"
+      }
+    }
+  },
+  "amulet_clues": {
+    "text": "Inspecting the amulet reveals strange engravings and symbols. The symbols seem to match those found in the funhouse. You can:",
+    "choices": {
+      "1": {
+        "text": "Go to the funhouse to investigate the symbols further.",
+        "next": "funhouse_amulet"
+      },
+      "2": {
+        "text": "Search for more clues in the carnival area.",
+        "next": "carnival_clues"
+      }
+    }
+  },
+  "search_backstage": {
+    "text": "Searching backstage, you find an old, hidden passage leading to an underground chamber. The chamber contains various carnival artifacts and a locked vault. You can:",
+    "choices": {
+      "1": {
+        "text": "Try to unlock the vault with the key.",
+        "next": "vault_unlock"
+      },
+      "2": {
+        "text": "Examine the artifacts for more clues.",
+        "next": "artifacts_clues"
+      }
+    }
+  },
+  "map_locations": {
+    "text": "Following the map to the secret locations, you discover hidden compartments and clues around the carnival. One of the clues leads you to a previously unexplored area of the funhouse. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the new area in the funhouse.",
+        "next": "funhouse_explore"
+      },
+      "2": {
+        "text": "Check other locations marked on the map.",
+        "next": "map_explore"
+      }
+    }
+  },
+  "map_details": {
+    "text": "Examining the map further reveals additional markings that indicate a hidden entrance beneath the carousel. You can:",
+    "choices": {
+      "1": {
+        "text": "Head to the carousel to find the hidden entrance.",
+        "next": "carousel_entrance"
+      },
+      "2": {
+        "text": "Investigate other areas for more hidden clues.",
+        "next": "other_areas"
+      }
+    }
+  },
+  "chest_contents": {
+    "text": "Opening the chest in the hidden room reveals an old carnival costume and a strange artifact. The artifact seems to be linked to other clues you’ve found. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the artifact for more clues.",
+        "next": "artifact_clues"
+      },
+      "2": {
+        "text": "Search the hidden room for more secrets.",
+        "next": "hidden_room_secrets"
+      }
+    }
+  },
+  "review_records": {
+    "text": "Reviewing the carnival records, you find references to a series of mysterious events and disappearances connected to the carnival. One record points to a hidden vault with important information. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the vault mentioned in the records.",
+        "next": "vault_search"
+      },
+      "2": {
+        "text": "Investigate the records further for more details.",
+        "next": "detailed_records"
+      }
+    }
+  },
+  "tunnels_explore": {
+    "text": "Exploring the tunnels, you find signs of recent activity and more clues leading to the carnival’s underground operations. You discover a hidden room with old documents. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the documents for further information.",
+        "next": "documents_info"
+      },
+      "2": {
+        "text": "Continue exploring the tunnels for additional clues.",
+        "next": "tunnels_clues"
+      }
+    }
+  },
+  "surface_return": {
+    "text": "Returning to the surface, you decide to check other areas of the carnival. You come across a mysterious tent with no visible entrance. You can:",
+    "choices": {
+      "1": {
+        "text": "Try to find an entrance to the tent.",
+        "next": "tent_entrance"
+      },
+      "2": {
+        "text": "Continue exploring the previously investigated areas.",
+        "next": "previous_exploration"
+      }
+    }
+  },
+  "vault_entrance": {
+    "text": "At the carousel, you find the hidden entrance to the vault. Inside, you uncover important documents and clues about the carnival’s dark history. You can:",
+    "choices": {
+      "1": {
+        "text": "Review the documents for more details.",
+        "next": "vault_documents"
+      },
+      "2": {
+        "text": "Search for additional hidden elements within the vault.",
+        "next": "vault_exploration"
+      }
+    }
+  },
+  "main_tent_search": {
+    "text": "Searching more thoroughly in the main tent, you discover a hidden compartment with a journal detailing the carnival’s secrets. The journal hints at a secret room. You can:",
+    "choices": {
+      "1": {
+        "text": "Look for the secret room mentioned in the journal.",
+        "next": "secret_room"
+      },
+      "2": {
+        "text": "Examine other items in the main tent for more clues.",
+        "next": "tent_items"
+      }
+    }
+  },
+  "carousel_pattern": {
+    "text": "Following the pattern from the dark room symbols, you find a hidden passage beneath the carousel. The passage leads to an underground chamber with various carnival artifacts. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the artifacts in the underground chamber.",
+        "next": "artifacts_in_chamber"
+      },
+      "2": {
+        "text": "Search the passage for more clues.",
+        "next": "passage_clues"
+      }
+    }
+  },
+  "dark_room_search": {
+    "text": "Searching the dark room reveals a hidden exit leading to an underground maze. The maze contains several paths with various clues. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the maze for additional clues.",
+        "next": "maze_exploration"
+      },
+      "2": {
+        "text": "Find your way back to the carnival’s main area.",
+        "next": "main_area"
+      }
+    }
+  },
+  "funhouse_secret": {
+    "text": "Finding the secret passage in the funhouse, you uncover a hidden vault containing important carnival documents and artifacts. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the documents for more clues.",
+        "next": "vault_documents"
+      },
+      "2": {
+        "text": "Inspect the artifacts for additional information.",
+        "next": "artifacts_info"
+      }
+    }
+  },
+  "carnival_explore": {
+    "text": "Continuing to explore other areas of the carnival, you discover a hidden entrance to an old tent filled with carnival memorabilia and clues. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the memorabilia for more clues.",
+        "next": "memorabilia_clues"
+      },
+      "2": {
+        "text": "Search for hidden passages within the tent.",
+        "next": "tent_passages"
+      }
+    }
+  },
+  "unlock_box": {
+    "text": "Unlocking the box in the funhouse reveals a key and a map. The key appears to open a door in the underground area. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the key to open the door in the underground area.",
+        "next": "underground_door"
+      },
+      "2": {
+        "text": "Examine the map for additional details.",
+        "next": "map_details"
+      }
+    }
+  },
+  "restricted_area": {
+    "text": "Using the tickets to access a restricted area, you find an old office with important records and a strange device. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the records for more information.",
+        "next": "records_in_office"
+      },
+      "2": {
+        "text": "Examine the strange device for clues.",
+        "next": "device_clues"
+      }
+    }
+  },
+  "tickets_info": {
+    "text": "Examining the tickets reveals a hidden code that leads you to a secret compartment under the carousel. You can:",
+    "choices": {
+      "1": {
+        "text": "Search the secret compartment for more clues.",
+        "next": "compartment_clues"
+      },
+      "2": {
+        "text": "Use the code to gain access to another area.",
+        "next": "code_access"
+      }
+    }
+  },
+  "vault_unlock": {
+    "text": "Unlocking the vault reveals a collection of old carnival blueprints and a journal detailing the carnival’s hidden aspects. You can:",
+    "choices": {
+      "1": {
+        "text": "Study the blueprints for hidden areas.",
+        "next": "blueprints_info"
+      },
+      "2": {
+        "text": "Read the journal for more background on the carnival.",
+        "next": "journal_info"
+      }
+    }
+  },
+  "funhouse_amulet": {
+    "text": "Investigating the symbols in the funhouse with the amulet reveals a hidden passage leading to an underground chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the underground chamber.",
+        "next": "chamber_explore"
+      },
+      "2": {
+        "text": "Search the funhouse for additional clues.",
+        "next": "funhouse_clues"
+      }
+    }
+  },
+  "carnival_clues": {
+    "text": "Searching for more clues in the carnival area, you come across an old performer’s diary hinting at a hidden room. You can:",
+    "choices": {
+      "1": {
+        "text": "Find the hidden room mentioned in the diary.",
+        "next": "hidden_room"
+      },
+      "2": {
+        "text": "Investigate other clues in the carnival area.",
+        "next": "additional_clues"
+      }
+    }
+  },
+  "artifacts_clues": {
+    "text": "Examining the artifacts reveals a series of strange symbols and a map leading to a hidden part of the carnival. You can:",
+    "choices": {
+      "1": {
+        "text": "Follow the map to the hidden part of the carnival.",
+        "next": "hidden_part"
+      },
+      "2": {
+        "text": "Investigate the symbols for more information.",
+        "next": "symbols_info"
+      }
+    }
+  },
+  "hidden_room_secrets": {
+    "text": "Searching the hidden room further, you find a secret compartment with a strange device and a clue pointing to an old tent. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the device for more clues.",
+        "next": "device_examine"
+      },
+      "2": {
+        "text": "Head to the old tent mentioned in the clue.",
+        "next": "old_tent"
+      }
+    }
+  },
+  "detailed_records": {
+    "text": "Investigating the records further, you uncover a series of missing persons cases linked to the carnival. The records point to a hidden chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the hidden chamber.",
+        "next": "chamber_search"
+      },
+      "2": {
+        "text": "Look into other details in the records.",
+        "next": "records_details"
+      }
+    }
+  },
+  "documents_info": {
+    "text": "Examining the documents reveals a series of encrypted messages. Deciphering them might lead you to important clues. You can:",
+    "choices": {
+      "1": {
+        "text": "Attempt to decipher the encrypted messages.",
+        "next": "decipher_messages"
+      },
+      "2": {
+        "text": "Look for additional documents or clues.",
+        "next": "additional_documents"
+      }
+    }
+  },
+  "tunnels_clues": {
+    "text": "Continuing your exploration of the tunnels, you find a hidden room with more carnival-related documents and clues. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the new documents for more information.",
+        "next": "new_documents"
+      },
+      "2": {
+        "text": "Search the tunnels for other hidden clues.",
+        "next": "search_tunnels"
+      }
+    }
+  },
+  "tent_entrance": {
+    "text": "Finding an entrance to the mysterious tent, you discover an old carnival map and a journal with strange symbols. You can:",
+    "choices": {
+      "1": {
+        "text": "Study the map for hidden locations.",
+        "next": "map_study"
+      },
+      "2": {
+        "text": "Decipher the journal's symbols for more clues.",
+        "next": "journal_symbols"
+      }
+    }
+  },
+  "vault_documents": {
+    "text": "Reviewing the documents in the vault, you uncover a series of events that led to the carnival’s downfall and clues to a secret chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the secret chamber mentioned in the documents.",
+        "next": "secret_chamber"
+      },
+      "2": {
+        "text": "Look into other details in the documents.",
+        "next": "documents_details"
+      }
+    }
+  },
+  "chamber_explore": {
+    "text": "Exploring the underground chamber reveals a series of old carnival artifacts and a hidden door. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the artifacts.",
+        "next": "artifacts_in_chamber"
+      },
+      "2": {
+        "text": "Try to open the hidden door.",
+        "next": "hidden_door"
+      }
+    }
+  },
+  "funhouse_clues": {
+    "text": "Searching the funhouse reveals additional clues that lead to a series of hidden passages. You find a hidden room with more carnival artifacts. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the hidden room.",
+        "next": "hidden_room_explore"
+      },
+      "2": {
+        "text": "Search for more passages.",
+        "next": "additional_passages"
+      }
+    }
+  },
+  "compartment_clues": {
+    "text": "Searching the secret compartment reveals old carnival tokens and a cryptic note. The note seems to be a part of a larger puzzle. You can:",
+    "choices": {
+      "1": {
+        "text": "Attempt to solve the puzzle using the note.",
+        "next": "solve_puzzle"
+      },
+      "2": {
+        "text": "Investigate the tokens for additional clues.",
+        "next": "tokens_clues"
+      }
+    }
+  },
+  "code_access": {
+    "text": "Using the code, you gain access to a hidden room with carnival memorabilia and old records. You can:",
+    "choices": {
+      "1": {
+        "text": "Review the old records for more information.",
+        "next": "records_review"
+      },
+      "2": {
+        "text": "Investigate the memorabilia for hidden clues.",
+        "next": "memorabilia_review"
+      }
+    }
+  },
+  "vault_exploration": {
+    "text": "Searching for additional elements within the vault, you find a hidden drawer with an old carnival ticket and a key. The key seems to fit a lock in the underground tunnels. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the key in the underground tunnels.",
+        "next": "tunnels_key"
+      },
+      "2": {
+        "text": "Examine the old ticket for clues.",
+        "next": "ticket_clues"
+      }
+    }
+  },
+  "artifacts_in_chamber": {
+    "text": "Investigating the artifacts in the underground chamber, you find items related to the carnival’s past and a hidden compartment with a strange device. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the strange device.",
+        "next": "device_examination"
+      },
+      "2": {
+        "text": "Search the chamber for additional clues.",
+        "next": "chamber_clues"
+      }
+    }
+  },
+  "passage_clues": {
+    "text": "Searching the passage, you discover a hidden door leading to a small room with old carnival records. You can:",
+    "choices": {
+      "1": {
+        "text": "Review the carnival records for more details.",
+        "next": "records_details"
+      },
+      "2": {
+        "text": "Investigate the small room for additional clues.",
+        "next": "small_room_clues"
+      }
+    }
+  },
+  "maze_exploration": {
+    "text": "Exploring the maze, you find various hidden clues and passages. One path leads to a secret room with more information about the carnival’s history. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the information in the secret room.",
+        "next": "secret_room_info"
+      },
+      "2": {
+        "text": "Search the maze for additional passages.",
+        "next": "maze_passages"
+      }
+    }
+  },
+  "main_area": {
+    "text": "Returning to the carnival’s main area, you notice a peculiar tent with a hidden entrance. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the hidden entrance to the tent.",
+        "next": "hidden_tent"
+      },
+      "2": {
+        "text": "Continue exploring other areas of the carnival.",
+        "next": "other_exploration"
+      }
+    }
+  },
+  "tent_passages": {
+    "text": "Searching for hidden passages within the tent, you uncover a hidden room with old carnival artifacts and records. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the artifacts and records.",
+        "next": "tent_artifacts"
+      },
+      "2": {
+        "text": "Search the room for additional clues.",
+        "next": "tent_clues"
+      }
+    }
+  },
+  "hidden_room": {
+    "text": "Finding the hidden room mentioned in the diary, you uncover various old carnival documents and a hidden compartment. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the documents for more details.",
+        "next": "hidden_room_documents"
+      },
+      "2": {
+        "text": "Search the hidden compartment for additional clues.",
+        "next": "compartment_clues"
+      }
+    }
+  },
+  "additional_clues": {
+    "text": "Investigating other clues in the carnival area, you come across a series of old photographs and a map with unusual markings. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the photographs for more information.",
+        "next": "photographs_info"
+      },
+      "2": {
+        "text": "Study the map for hidden locations.",
+        "next": "map_study"
+      }
+    }
+  },
+  "solve_puzzle": {
+    "text": "Solving the puzzle reveals a hidden passage leading to a secret room filled with carnival memorabilia and more clues. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the secret room.",
+        "next": "secret_room_explore"
+      },
+      "2": {
+        "text": "Search for additional clues within the passage.",
+        "next": "passage_clues"
+      }
+    }
+  },
+  "tokens_clues": {
+    "text": "Investigating the carnival tokens reveals a series of symbols and a coded message. You can:",
+    "choices": {
+      "1": {
+        "text": "Decode the message for more information.",
+        "next": "decode_message"
+      },
+      "2": {
+        "text": "Search for other tokens or related items.",
+        "next": "search_tokens"
+      }
+    }
+  },
+  "device_clues": {
+    "text": "Examining the strange device reveals it’s a key component to a hidden mechanism. You can:",
+    "choices": {
+      "1": {
+        "text": "Find the mechanism it belongs to.",
+        "next": "find_mechanism"
+      },
+      "2": {
+        "text": "Investigate other parts of the carnival for clues.",
+        "next": "carnival_parts"
+      }
+    }
+  },
+  "device_examine": {
+    "text": "Examining the device from the underground chamber, you discover it’s a key part of a complex puzzle. You can:",
+    "choices": {
+      "1": {
+        "text": "Solve the puzzle using the device.",
+        "next": "solve_device_puzzle"
+      },
+      "2": {
+        "text": "Search for more clues in the chamber.",
+        "next": "chamber_clues"
+      }
+    }
+  },
+  "blueprints_info": {
+    "text": "Studying the blueprints reveals hidden rooms and passageways within the carnival. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the hidden rooms and passageways.",
+        "next": "explore_blueprints"
+      },
+      "2": {
+        "text": "Investigate other aspects of the blueprints.",
+        "next": "blueprints_details"
+      }
+    }
+  },
+  "journal_info": {
+    "text": "Reading the journal provides detailed accounts of the carnival’s operations and hints at a hidden chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the hidden chamber.",
+        "next": "hidden_chamber"
+      },
+      "2": {
+        "text": "Look into other details in the journal.",
+        "next": "journal_details"
+      }
+    }
+  },
+  "device_examination": {
+    "text": "Examining the strange device in the underground chamber, you find it fits a mechanism in the chamber’s wall. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the device with the mechanism.",
+        "next": "device_mechanism"
+      },
+      "2": {
+        "text": "Search the chamber for more clues.",
+        "next": "chamber_clues"
+      }
+    }
+  },
+  "hidden_door": {
+    "text": "Attempting to open the hidden door in the underground chamber, you find it leads to a small room with more carnival artifacts and a cryptic message. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the cryptic message.",
+        "next": "cryptic_message"
+      },
+      "2": {
+        "text": "Examine the artifacts for more clues.",
+        "next": "artifacts_info"
+      }
+    }
+  },
+  "small_room_clues": {
+    "text": "Investigating the small room with old records and artifacts reveals several clues about the carnival’s secret activities. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the records for more details.",
+        "next": "records_info"
+      },
+      "2": {
+        "text": "Search the room for additional clues.",
+        "next": "additional_clues"
+      }
+    }
+  },
+  "secret_room_info": {
+    "text": "Examining the information in the secret room, you find detailed accounts of the carnival’s past and clues to a hidden vault. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the hidden vault.",
+        "next": "vault_search"
+      },
+      "2": {
+        "text": "Look into other details in the secret room.",
+        "next": "room_details"
+      }
+    }
+  },
+  "maze_passages": {
+    "text": "Searching the maze for additional passages, you come across a hidden chamber with more carnival-related documents and artifacts. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the documents for more information.",
+        "next": "maze_documents"
+      },
+      "2": {
+        "text": "Explore the chamber for hidden clues.",
+        "next": "chamber_exploration"
+      }
+    }
+  },
+  "other_exploration": {
+    "text": "Continuing your exploration of the carnival, you find a secret tent with carnival memorabilia and old documents. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the memorabilia and documents.",
+        "next": "memorial_documents"
+      },
+      "2": {
+        "text": "Look for hidden passages in the tent.",
+        "next": "tent_passages"
+      }
+    }
+  },
+  "tent_artifacts": {
+    "text": "Investigating the artifacts and records in the tent reveals more about the carnival’s history and a clue to a hidden chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the hidden chamber.",
+        "next": "hidden_chamber"
+      },
+      "2": {
+        "text": "Examine other items in the tent for clues.",
+        "next": "tent_clues"
+      }
+    }
+  },
+  "hidden_room_documents": {
+    "text": "Investigating the documents in the hidden room, you find detailed accounts of the carnival’s operations and a clue to a secret vault. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the secret vault.",
+        "next": "vault_search"
+      },
+      "2": {
+        "text": "Look for additional details in the documents.",
+        "next": "documents_details"
+      }
+    }
+  },
+  "chamber_clues": {
+    "text": "Searching the chamber for additional clues, you find a hidden compartment with an old key and a map. The key fits a lock in the funhouse. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the key in the funhouse.",
+        "next": "funhouse_key"
+      },
+      "2": {
+        "text": "Study the map for more clues.",
+        "next": "map_study"
+      }
+    }
+  },
+  "passage_clues": {
+    "text": "Searching the passage for additional clues, you find a hidden compartment with carnival-related artifacts. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the artifacts for more information.",
+        "next": "artifacts_info"
+      },
+      "2": {
+        "text": "Look for additional passages in the area.",
+        "next": "additional_passages"
+      }
+    }
+  },
+  "secret_room_explore": {
+    "text": "Exploring the secret room reveals more about the carnival’s history and a hidden vault. You can:",
+    "choices": {
+      "1": {
+        "text": "Search for the hidden vault.",
+        "next": "vault_search"
+      },
+      "2": {
+        "text": "Investigate other items in the secret room.",
+        "next": "secret_room_details"
+      }
+    }
+  }
+}

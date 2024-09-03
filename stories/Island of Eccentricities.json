@@ -1,0 +1,551 @@
+{
+  "start": {
+    "text": "You’re stranded on a deserted island with limited supplies. As you survey your surroundings, you notice a strange, glistening object in the sand. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Investigate the strange object.",
+        "next": "investigate_object"
+      },
+      "2": {
+        "text": "Focus on immediate survival tasks like finding water or building a shelter.",
+        "next": "survival_tasks"
+      }
+    }
+  },
+  "investigate_object": {
+    "text": "You approach the glistening object and discover it's a high-tech gadget resembling something out of *Rick & Morty*. It’s a 'Universal Remote' with strange buttons. You can:",
+    "choices": {
+      "1": {
+        "text": "Press the 'Randomize' button.",
+        "next": "randomize"
+      },
+      "2": {
+        "text": "Press the 'Help' button.",
+        "next": "help_button"
+      }
+    }
+  },
+  "survival_tasks": {
+    "text": "You decide to focus on survival. After gathering some fresh water and building a shelter, you notice a quirky, talking animal reminiscent of *Adventure Time*. The animal offers you a choice between two paths: a 'Mystical Forest' or 'The Shimmering Caves.' What do you do?",
+    "choices": {
+      "1": {
+        "text": "Explore the Mystical Forest.",
+        "next": "mystical_forest"
+      },
+      "2": {
+        "text": "Explore the Shimmering Caves.",
+        "next": "shimmering_caves"
+      }
+    }
+  },
+  "randomize": {
+    "text": "Pressing the 'Randomize' button causes bizarre changes in your surroundings. The island turns into a cartoonish world full of over-the-top characters and wacky scenarios, much like *The Amazing World of Gumball*. You find yourself in a wild, chaotic landscape. You can:",
+    "choices": {
+      "1": {
+        "text": "Try to adapt to this new world and look for resources.",
+        "next": "adapt_world"
+      },
+      "2": {
+        "text": "Attempt to use the remote to return to normal.",
+        "next": "return_normal"
+      }
+    }
+  },
+  "help_button": {
+    "text": "Pressing the 'Help' button summons a helpful but clueless robot similar to those from *Solar Opposites*. It offers you an assortment of gadgets and gizmos, but they all seem a bit faulty. You can:",
+    "choices": {
+      "1": {
+        "text": "Try to use one of the gadgets to improve your situation.",
+        "next": "use_gadgets"
+      },
+      "2": {
+        "text": "Send the robot away and continue on your own.",
+        "next": "continue_on_your_own"
+      }
+    }
+  },
+  "mystical_forest": {
+    "text": "In the Mystical Forest, you encounter a friendly but slightly mischievous creature resembling something from *Bob’s Burgers*. It offers to guide you to a hidden treasure but warns that the path is fraught with challenges. Do you:",
+    "choices": {
+      "1": {
+        "text": "Follow the creature to the treasure.",
+        "next": "treasure_hunt"
+      },
+      "2": {
+        "text": "Explore the forest on your own.",
+        "next": "explore_forest"
+      }
+    }
+  },
+  "shimmering_caves": {
+    "text": "The Shimmering Caves are full of dazzling crystals and strange sounds. You come across a group of cave-dwelling creatures who are having a party reminiscent of *Family Guy*. They invite you to join them. Do you:",
+    "choices": {
+      "1": {
+        "text": "Join the party and see if they have any useful information.",
+        "next": "party_join"
+      },
+      "2": {
+        "text": "Politely decline and continue exploring the caves.",
+        "next": "explore_caves"
+      }
+    }
+  },
+  "adapt_world": {
+    "text": "Adapting to the new, cartoonish world proves to be both hilarious and challenging. You meet a series of comical characters and find some useful items, but the island’s bizarre changes make it difficult to navigate. Eventually, you discover a way to return to your original dimension, but only if you can solve a series of whimsical puzzles.",
+    "choices": {
+      "1": {
+        "text": "Solve the puzzles to return to normal.",
+        "next": "solve_puzzles"
+      },
+      "2": {
+        "text": "Try to live in this new world and adapt.",
+        "next": "adapt_permanently"
+      }
+    }
+  },
+  "return_normal": {
+    "text": "You manage to use the remote to restore your surroundings to normal. However, you’ve accidentally activated a 'Chaos Mode,' which causes various bizarre phenomena to occur on the island. You have to deal with these strange occurrences while trying to find a way off the island.",
+    "choices": {
+      "1": {
+        "text": "Find a way to fix the chaos.",
+        "next": "fix_chaos"
+      },
+      "2": {
+        "text": "Try to survive despite the chaos.",
+        "next": "survive_chaos"
+      }
+    }
+  },
+  "use_gadgets": {
+    "text": "You attempt to use the gadgets provided by the robot. Unfortunately, they are more trouble than they're worth and cause various mishaps. You end up in a comedic situation where you accidentally create a small robot army that’s more interested in having fun than helping you.",
+    "choices": {
+      "1": {
+        "text": "Try to control the robot army.",
+        "next": "control_robots"
+      },
+      "2": {
+        "text": "Disband the robots and go back to basics.",
+        "next": "go_back_to_basics"
+      }
+    }
+  },
+  "continue_on_your_own": {
+    "text": "Sending the robot away, you continue on your own and manage to find a hidden stash of supplies left by previous castaways. With these supplies, you can now:",
+    "choices": {
+      "1": {
+        "text": "Create a signal fire for rescue.",
+        "next": "signal_fire"
+      },
+      "2": {
+        "text": "Build a more secure shelter.",
+        "next": "build_shelter_advanced"
+      }
+    }
+  },
+  "explore_forest": {
+    "text": "Exploring the forest on your own, you discover a series of peculiar landmarks and eventually come across a small village of eccentric, cartoonish characters. They offer to help you find a way off the island, but their help comes with quirky challenges.",
+    "choices": {
+      "1": {
+        "text": "Accept their help and face the challenges.",
+        "next": "village_challenges"
+      },
+      "2": {
+        "text": "Try to find another way on your own.",
+        "next": "find_alternate_way"
+      }
+    }
+  },
+  "treasure_hunt": {
+    "text": "Following the creature, you encounter various magical traps and riddles. The treasure turns out to be a magical item that grants you one wish. You can:",
+    "choices": {
+      "1": {
+        "text": "Wish for a way off the island.",
+        "next": "wish_escape"
+      },
+      "2": {
+        "text": "Wish for something else (e.g., unlimited pizza, endless adventures).",
+        "next": "wish_adventure"
+      }
+    }
+  },
+  "party_join": {
+    "text": "Joining the party, you discover that the cave dwellers are a fun-loving bunch with extensive knowledge of the island’s secrets. They provide you with crucial information about a hidden escape route. You can now:",
+    "choices": {
+      "1": {
+        "text": "Follow the escape route to freedom.",
+        "next": "escape_route"
+      },
+      "2": {
+        "text": "Explore more of the caves before leaving.",
+        "next": "explore_more_caves"
+      }
+    }
+  },
+  "explore_caves": {
+    "text": "Continuing to explore the caves, you find a hidden chamber filled with strange artifacts and a mysterious map. The map seems to indicate a way off the island, but it’s covered in cryptic symbols.",
+    "choices": {
+      "1": {
+        "text": "Try to decipher the map.",
+        "next": "decipher_map"
+      },
+      "2": {
+        "text": "Seek help from the cave dwellers.",
+        "next": "seek_help"
+      }
+    }
+  },
+  "solve_puzzles": {
+    "text": "Solving the whimsical puzzles allows you to return the island to its normal state. You find a hidden raft and manage to use it to signal for help. A passing ship rescues you, and you return home with unforgettable stories of your surreal adventure.",
+    "choices": {}
+  },
+  "adapt_permanently": {
+    "text": "Adapting to the new, cartoonish world proves to be more fun than expected. You decide to live out your days in this whimsical reality, enjoying endless adventures with your new friends.",
+    "choices": {}
+  },
+  "fix_chaos": {
+    "text": "With some ingenuity, you manage to fix the chaos caused by the remote. However, the experience has left you more determined than ever to leave the island. You begin to build a raft using materials from the island.",
+    "choices": {
+      "1": {
+        "text": "Finish building the raft and set sail.",
+        "next": "raft_escape"
+      },
+      "2": {
+        "text": "Explore the island for more resources.",
+        "next": "explore_more_resources"
+      }
+    }
+  },
+  "survive_chaos": {
+    "text": "Surviving amidst the chaos, you eventually grow accustomed to the bizarre events and manage to find a semblance of normalcy. You decide to make the best of your situation and continue exploring the island for new opportunities.",
+    "choices": {
+      "1": {
+        "text": "Explore the island further.",
+        "next": "explore_island_further"
+      },
+      "2": {
+        "text": "Attempt to repair the remote for more control.",
+        "next": "repair_remote"
+      }
+    }
+  },
+  "control_robots": {
+    "text": "You attempt to control the robot army, turning them into a useful workforce. They help you build a better shelter and gather food, but their antics make every day a unique challenge. Eventually, you figure out how to use them to create a signaling device.",
+    "choices": {
+      "1": {
+        "text": "Use the signaling device to call for help.",
+        "next": "signal_for_help"
+      },
+      "2": {
+        "text": "Keep the robots and continue life on the island.",
+        "next": "keep_robots"
+      }
+    }
+  },
+  "go_back_to_basics": {
+    "text": "You disband the robot army and go back to basics, focusing on survival and exploration. This decision leads you to discover a hidden passage that might be a way off the island.",
+    "choices": {
+      "1": {
+        "text": "Explore the hidden passage.",
+        "next": "explore_passage"
+      },
+      "2": {
+        "text": "Ignore the passage and stick with what you know.",
+        "next": "stick_to_known"
+      }
+    }
+  },
+  "signal_fire": {
+    "text": "Creating a signal fire, you wait for rescue. Eventually, a plane spots your signal, and you are saved. You return home with tales of your incredible island adventure.",
+    "choices": {}
+  },
+  "build_shelter_advanced": {
+    "text": "Building a more secure shelter gives you a sense of safety. You decide to explore the island more thoroughly to find any remaining secrets or potential escape routes.",
+    "choices": {
+      "1": {
+        "text": "Explore further.",
+        "next": "explore_further"
+      },
+      "2": {
+        "text": "Rest and wait for rescue.",
+        "next": "wait_for_rescue"
+      }
+    }
+  },
+  "village_challenges": {
+    "text": "You accept the village’s challenges and, through a series of hilarious and absurd tasks, earn their trust. They show you a secret dock where you find a boat ready to sail.",
+    "choices": {
+      "1": {
+        "text": "Take the boat and leave the island.",
+        "next": "boat_escape"
+      },
+      "2": {
+        "text": "Stay and live among the villagers.",
+        "next": "live_with_villagers"
+      }
+    }
+  },
+  "find_alternate_way": {
+    "text": "Deciding to find another way on your own, you eventually stumble upon a hidden cache of supplies and a small raft. With this, you could try to sail away or continue your search for a better solution.",
+    "choices": {
+      "1": {
+        "text": "Use the raft to escape.",
+        "next": "raft_escape_own"
+      },
+      "2": {
+        "text": "Search for a better solution.",
+        "next": "search_better_solution"
+      }
+    }
+  },
+  "wish_escape": {
+    "text": "You wish for a way off the island, and a magical portal appears. Stepping through, you find yourself back home, safe and sound, with only memories of the strange adventure.",
+    "choices": {}
+  },
+  "wish_adventure": {
+    "text": "You wish for endless adventures, and the island transforms into a never-ending series of exciting and surreal escapades, much like a never-ending episode of *Rick & Morty*.",
+    "choices": {}
+  },
+  "escape_route": {
+    "text": "Following the escape route, you find a secret tunnel that leads to the ocean where a small boat is waiting. You set sail and make your way to freedom.",
+    "choices": {}
+  },
+  "explore_more_caves": {
+    "text": "Exploring more of the caves, you find hidden treasures and strange artifacts, adding to the island's mystery. Eventually, you decide to leave with the knowledge you’ve gained.",
+    "choices": {
+      "1": {
+        "text": "Leave the island with your newfound treasures.",
+        "next": "leave_with_treasures"
+      },
+      "2": {
+        "text": "Stay and uncover more secrets.",
+        "next": "uncover_secrets"
+      }
+    }
+  },
+  "decipher_map": {
+    "text": "Deciphering the map, you discover it leads to a hidden cove with a small, seaworthy boat. You can now attempt to escape the island.",
+    "choices": {
+      "1": {
+        "text": "Use the boat to escape.",
+        "next": "boat_escape_cove"
+      },
+      "2": {
+        "text": "Stay and explore more.",
+        "next": "explore_more_cove"
+      }
+    }
+  },
+  "seek_help": {
+    "text": "Seeking help from the cave dwellers, they offer you a magical device to translate the map. You now have a clearer path to escape the island.",
+    "choices": {
+      "1": {
+        "text": "Follow the translated map to escape.",
+        "next": "translated_map_escape"
+      },
+      "2": {
+        "text": "Stay and learn more from the cave dwellers.",
+        "next": "learn_more"
+      }
+    }
+  },
+  "raft_escape": {
+    "text": "You finish building the raft and set sail, eventually being rescued by a passing ship. You leave the island behind with a story to tell.",
+    "choices": {}
+  },
+  "explore_more_resources": {
+    "text": "Exploring for more resources, you discover a hidden cave filled with ancient artifacts. You find a map that could lead you to a way off the island.",
+    "choices": {
+      "1": {
+        "text": "Follow the map.",
+        "next": "follow_map"
+      },
+      "2": {
+        "text": "Ignore the map and continue exploring.",
+        "next": "ignore_map"
+      }
+    }
+  },
+  "explore_island_further": {
+    "text": "Exploring the island further, you encounter a variety of strange creatures and hidden secrets. Each discovery makes the island more mysterious and exciting.",
+    "choices": {
+      "1": {
+        "text": "Continue exploring.",
+        "next": "continue_exploring"
+      },
+      "2": {
+        "text": "Try to find a way off the island.",
+        "next": "find_way_off"
+      }
+    }
+  },
+  "repair_remote": {
+    "text": "Attempting to repair the remote, you manage to fix some of its functions, gaining more control over your surroundings. You decide to use it to create a beacon for rescue.",
+    "choices": {
+      "1": {
+        "text": "Activate the beacon for rescue.",
+        "next": "activate_beacon"
+      },
+      "2": {
+        "text": "Keep the remote and explore more.",
+        "next": "explore_with_remote"
+      }
+    }
+  },
+  "signal_for_help": {
+    "text": "Using the signaling device, you manage to attract the attention of a passing plane. They signal back, promising to send help soon. You wait in anticipation.",
+    "choices": {}
+  },
+  "keep_robots": {
+    "text": "Deciding to keep the robot army, you continue to live on the island, using them to help with daily tasks. Every day is an adventure with your quirky companions.",
+    "choices": {}
+  },
+  "explore_passage": {
+    "text": "Exploring the hidden passage, you find a series of tunnels leading to a beautiful underground oasis. There’s also a hidden dock with a small boat, offering a potential escape.",
+    "choices": {
+      "1": {
+        "text": "Use the boat to escape.",
+        "next": "underground_escape"
+      },
+      "2": {
+        "text": "Stay and enjoy the oasis.",
+        "next": "enjoy_oasis"
+      }
+    }
+  },
+  "stick_to_known": {
+    "text": "Choosing to stick with what you know, you continue your efforts to survive on the island, making it your new home. Over time, you grow fond of the island's strange beauty.",
+
+    "choices": {}
+  },
+  "explore_further": {
+    "text": "Venturing further into the island, you find more unique flora and fauna. You also discover an old radio tower that might still work.",
+    "choices": {
+      "1": {
+        "text": "Try to repair the radio tower.",
+        "next": "repair_radio_tower"
+      },
+      "2": {
+        "text": "Ignore it and explore more.",
+        "next": "ignore_radio"
+      }
+    }
+  },
+  "wait_for_rescue": {
+    "text": "Deciding to wait for rescue, you continue to live on the island with the hope that someone will eventually come. Each day is filled with new challenges and surprises.",
+    "choices": {}
+  },
+  "boat_escape": {
+    "text": "Taking the boat, you sail away from the island, finally returning to civilization. You leave behind a place of wonder and mystery, forever changed by your experience.",
+    "choices": {}
+  },
+  "live_with_villagers": {
+    "text": "Choosing to stay, you live among the villagers, learning their ways and becoming a part of their community. Life is simple, yet filled with new adventures every day.",
+    "choices": {}
+  },
+  "raft_escape_own": {
+    "text": "Using the raft you found, you set sail into the unknown. After days at sea, a passing ship rescues you, bringing an end to your island adventure.",
+    "choices": {}
+  },
+  "search_better_solution": {
+    "text": "Continuing your search for a better solution, you find a hidden grotto with an old seaplane. It’s risky, but you might be able to use it to escape.",
+    "choices": {
+      "1": {
+        "text": "Try to fly the seaplane.",
+        "next": "fly_seaplane"
+      },
+      "2": {
+        "text": "Keep looking for another way.",
+        "next": "keep_looking"
+      }
+    }
+  },
+  "leave_with_treasures": {
+    "text": "Leaving the island with your newfound treasures, you make your way back to civilization, where your discoveries are hailed as a great find.",
+    "choices": {}
+  },
+  "uncover_secrets": {
+    "text": "Deciding to stay, you delve deeper into the island's mysteries, uncovering more secrets and ancient artifacts. Every discovery adds to the enigma of the island.",
+    "choices": {}
+  },
+  "boat_escape_cove": {
+    "text": "Taking the boat from the cove, you sail away, eventually reaching a shipping lane where you are rescued. Your adventure ends, but the memories remain.",
+    "choices": {}
+  },
+  "explore_more_cove": {
+    "text": "Staying to explore more, you find additional hidden areas and secrets, each revealing more about the island's history and its inhabitants.",
+    "choices": {}
+  },
+  "translated_map_escape": {
+    "text": "Following the translated map, you find a hidden cove with a boat. You escape the island, finally finding freedom after your long adventure.",
+    "choices": {}
+  },
+  "learn_more": {
+    "text": "Staying with the cave dwellers, you learn their secrets and the island's history, becoming a guardian of its mysteries. Life is forever changed as you adapt to this new world.",
+    "choices": {}
+  },
+  "follow_map": {
+    "text": "Following the map, you find a hidden cove where a small, sturdy boat awaits. You set sail, escaping the island at last.",
+    "choices": {}
+  },
+  "ignore_map": {
+    "text": "Ignoring the map, you decide to rely on your survival skills and knowledge of the island. Over time, you become more attuned to the island's rhythms.",
+    "choices": {}
+  },
+  "continue_exploring": {
+    "text": "You continue exploring the island, each day bringing new surprises and adventures. The island seems to have no end to its mysteries.",
+    "choices": {}
+  },
+  "find_way_off": {
+    "text": "Deciding to find a way off the island, you search tirelessly until you find a hidden dock with a small boat, offering a chance to leave.",
+    "choices": {
+      "1": {
+        "text": "Take the boat and escape.",
+        "next": "escape_via_dock"
+      },
+      "2": {
+        "text": "Stay and explore more.",
+        "next": "stay_explore_more"
+      }
+    }
+  },
+  "activate_beacon": {
+    "text": "Activating the beacon, you wait patiently until a rescue team arrives. You are saved, but the island's wonders will always remain in your memory.",
+    "choices": {}
+  },
+  "explore_with_remote": {
+    "text": "Keeping the remote, you continue exploring the island, using it to manipulate your surroundings and create new paths to explore.",
+    "choices": {}
+  },
+  "underground_escape": {
+    "text": "Taking the boat from the underground oasis, you navigate the tunnels until you reach the open sea. You sail to freedom, leaving the island's mysteries behind.",
+    "choices": {}
+  },
+  "enjoy_oasis": {
+    "text": "Deciding to stay and enjoy the underground oasis, you make a life for yourself there, surrounded by beauty and tranquility.",
+    "choices": {}
+  },
+  "repair_radio_tower": {
+    "text": "Repairing the radio tower, you manage to send out a distress signal. A few days later, a rescue team arrives, and you are finally saved.",
+    "choices": {}
+  },
+  "ignore_radio": {
+    "text": "Ignoring the radio tower, you continue your exploration of the island, uncovering more secrets and enjoying the freedom of your new life.",
+    "choices": {}
+  },
+  "fly_seaplane": {
+    "text": "Taking a chance, you manage to get the old seaplane working and fly off the island. You eventually reach civilization, bringing an end to your adventure.",
+    "choices": {}
+  },
+  "keep_looking": {
+    "text": "Deciding to keep looking for another way, you continue to explore the island, uncovering more of its mysteries and secrets.",
+    "choices": {}
+  },
+  "escape_via_dock": {
+    "text": "You take the boat from the hidden dock and sail away, eventually being rescued by a passing ship. Your adventure on the island comes to an end.",
+    "choices": {}
+  },
+  "stay_explore_more": {
+    "text": "Choosing to stay, you continue exploring the island, finding new and strange areas that reveal even more about its mysterious nature.",
+    "choices": {}
+  }
+}

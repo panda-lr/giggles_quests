@@ -1,0 +1,488 @@
+{
+  "start": {
+    "text": "You and your friends have been invited to spend the weekend at an ancient, sprawling estate rumored to be enchanted. As you arrive, the atmosphere is eerie but inviting. Your host, an enigmatic figure, informs you of a hidden treasure somewhere within the estate. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Explore the grand library for clues about the treasure.",
+        "next": "library_clues"
+      },
+      "2": {
+        "text": "Investigate the mysterious garden outside the estate.",
+        "next": "garden_investigation"
+      },
+      "3": {
+        "text": "Examine the hidden passages and secret rooms within the mansion.",
+        "next": "hidden_passages"
+      }
+    }
+  },
+  "library_clues": {
+    "text": "In the grand library, you find a collection of ancient books and manuscripts. One book seems out of place and has a hidden compartment. Inside, you discover a cryptic map and a riddle. The riddle hints at a location within the estate. You can:",
+    "choices": {
+      "1": {
+        "text": "Follow the map to the location mentioned in the riddle.",
+        "next": "follow_map"
+      },
+      "2": {
+        "text": "Solve the riddle and see if it reveals more information.",
+        "next": "solve_riddle"
+      }
+    }
+  },
+  "garden_investigation": {
+    "text": "The garden is lush and filled with unusual plants. Among the foliage, you notice a strange, glowing fountain. As you approach, the fountain begins to emit a magical aura. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the fountain for hidden mechanisms or clues.",
+        "next": "fountain_examination"
+      },
+      "2": {
+        "text": "Search the garden for other unusual objects or features.",
+        "next": "garden_search"
+      }
+    }
+  },
+  "hidden_passages": {
+    "text": "Exploring the hidden passages, you come across an old diary belonging to a previous resident of the estate. The diary contains notes about strange occurrences and secret rooms. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the secret rooms mentioned in the diary.",
+        "next": "secret_rooms"
+      },
+      "2": {
+        "text": "Look for clues in the diary about the treasure’s location.",
+        "next": "diary_clues"
+      }
+    }
+  },
+  "follow_map": {
+    "text": "Following the map leads you to an overgrown part of the estate where you find an old crypt. Inside, you encounter a series of magical puzzles that guard the treasure. You can:",
+    "choices": {
+      "1": {
+        "text": "Solve the puzzles to gain access to the treasure.",
+        "next": "solve_puzzles"
+      },
+      "2": {
+        "text": "Try to bypass the puzzles using your skills and tools.",
+        "next": "bypass_puzzles"
+      }
+    }
+  },
+  "solve_riddle": {
+    "text": "Solving the riddle reveals a hidden door in the library. Beyond the door lies a room filled with ancient artifacts and clues. You discover a journal with more information about the estate’s secrets. You can:",
+    "choices": {
+      "1": {
+        "text": "Read the journal for detailed information.",
+        "next": "read_journal"
+      },
+      "2": {
+        "text": "Search the room for other hidden clues.",
+        "next": "search_room"
+      }
+    }
+  },
+  "fountain_examination": {
+    "text": "Examining the fountain reveals an inscription that provides a cryptic clue about the estate’s history. Following the clue, you find an old key hidden in the fountain. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the key to unlock a nearby door or chest.",
+        "next": "use_key"
+      },
+      "2": {
+        "text": "Look for more clues around the fountain.",
+        "next": "search_fountain"
+      }
+    }
+  },
+  "garden_search": {
+    "text": "Searching the garden uncovers a hidden path leading to an old greenhouse. Inside, you find rare and magical plants that might be related to the estate’s secrets. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the magical plants for clues.",
+        "next": "investigate_plants"
+      },
+      "2": {
+        "text": "Search the greenhouse for hidden compartments or items.",
+        "next": "search_greenhouse"
+      }
+    }
+  },
+  "secret_rooms": {
+    "text": "The secret rooms are filled with elaborate traps and puzzles. Navigating these challenges requires careful planning. You discover a passage leading to an underground vault. You can:",
+    "choices": {
+      "1": {
+        "text": "Enter the underground vault and search for the treasure.",
+        "next": "vault_treasure"
+      },
+      "2": {
+        "text": "Explore further to see if there are other valuable items.",
+        "next": "explore_vault"
+      }
+    }
+  },
+  "diary_clues": {
+    "text": "The diary contains detailed notes about hidden mechanisms in the estate. Using these notes, you find a secret entrance to a hidden room with more clues about the treasure. You can:",
+    "choices": {
+      "1": {
+        "text": "Search the hidden room for the treasure.",
+        "next": "search_hidden_room"
+      },
+      "2": {
+        "text": "Examine the clues for additional information.",
+        "next": "examine_clues"
+      }
+    }
+  },
+  "solve_puzzles": {
+    "text": "Solving the magical puzzles successfully reveals the treasure: an ancient artifact of immense power. However, the artifact is cursed, and you must decide how to handle the situation:",
+    "choices": {
+      "1": {
+        "text": "Take the artifact and attempt to break the curse.",
+        "next": "break_curse"
+      },
+      "2": {
+        "text": "Leave the artifact and escape the crypt.",
+        "next": "escape_crypt"
+      }
+    }
+  },
+  "bypass_puzzles": {
+    "text": "Bypassing the puzzles allows you to access the treasure, but the estate's enchantments become hostile. You must quickly escape as the estate tries to prevent you from leaving.",
+    "choices": {
+      "1": {
+        "text": "Use your skills to navigate through the hostile environment.",
+        "next": "navigate_hostile"
+      },
+      "2": {
+        "text": "Find a hidden exit and make a quick escape.",
+        "next": "find_hidden_exit"
+      }
+    }
+  },
+  "read_journal": {
+    "text": "Reading the journal provides valuable insights into the estate’s history and the treasure's location. Following the information, you discover a hidden chamber containing the treasure. You can:",
+    "choices": {
+      "1": {
+        "text": "Retrieve the treasure and make your way out.",
+        "next": "retrieve_treasure"
+      },
+      "2": {
+        "text": "Search for additional secrets in the chamber.",
+        "next": "search_chamber"
+      }
+    }
+  },
+  "search_room": {
+    "text": "Searching the room reveals several hidden compartments, one of which contains a powerful artifact. However, taking the artifact triggers a series of magical defenses. You can:",
+    "choices": {
+      "1": {
+        "text": "Defend yourself against the magical defenses and escape.",
+        "next": "defend_escape"
+      },
+      "2": {
+        "text": "Quickly leave the room and regroup with your friends.",
+        "next": "regroup_friends"
+      }
+    }
+  },
+  "use_key": {
+    "text": "Using the key unlocks a hidden door leading to a secret chamber. Inside, you find important clues about the treasure’s location and a mysterious artifact. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the artifact for more information.",
+        "next": "examine_artifact"
+      },
+      "2": {
+        "text": "Follow the clues to locate the treasure.",
+        "next": "locate_treasure"
+      }
+    }
+  },
+  "search_fountain": {
+    "text": "Searching around the fountain uncovers additional clues and a hidden compartment containing an old map. The map provides directions to a secret area of the estate. You can:",
+    "choices": {
+      "1": {
+        "text": "Follow the map to the secret area.",
+        "next": "secret_area"
+      },
+      "2": {
+        "text": "Examine the other clues for more information.",
+        "next": "examine_clues"
+      }
+    }
+  },
+  "investigate_plants": {
+    "text": "Investigating the magical plants reveals that they have been enchanted to guard a hidden entrance. You find a concealed door that leads to a subterranean chamber. You can:",
+    "choices": {
+      "1": {
+        "text": "Enter the subterranean chamber to explore further.",
+        "next": "subterranean_chamber"
+      },
+      "2": {
+        "text": "Look for a way to deactivate the enchantment.",
+        "next": "deactivate_enchantment"
+      }
+    }
+  },
+  "search_greenhouse": {
+    "text": "Searching the greenhouse reveals several hidden compartments containing strange artifacts and a set of old keys. You realize one of the keys might unlock a secret area. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the keys to unlock a secret area of the estate.",
+        "next": "unlock_secret_area"
+      },
+      "2": {
+        "text": "Keep searching the greenhouse for more items.",
+        "next": "search_more_greenhouse"
+      }
+    }
+  },
+  "vault_treasure": {
+    "text": "Entering the underground vault, you find a room filled with gold and jewels. However, the treasure is guarded by a powerful spirit. You can:",
+    "choices": {
+      "1": {
+        "text": "Confront the spirit and attempt to take the treasure.",
+        "next": "confront_spirit"
+      },
+      "2": {
+        "text": "Negotiate with the spirit for safe passage.",
+        "next": "negotiate_spirit"
+      }
+    }
+  },
+  "explore_vault": {
+    "text": "Exploring further reveals an ancient artifact that might be even more valuable than the treasure. However, removing the artifact triggers a trap. You can:",
+    "choices": {
+      "1": {
+        "text": "Disarm the trap and take the artifact.",
+        "next": "disarm_trap"
+      },
+      "2": {
+        "text": "Leave the artifact and exit the vault.",
+        "next": "exit_vault"
+      }
+    }
+  },
+  "search_hidden_room": {
+    "text": "Searching the hidden room, you find several old scrolls that contain valuable information about the estate’s history and the treasure. You can:",
+    "choices": {
+      "1": {
+        "text": "Take the scrolls and continue your search for the treasure.",
+        "next": "take_scrolls"
+      },
+      "2": {
+        "text": "Look for other hidden items in the room.",
+        "next": "find_more_hidden_items"
+      }
+    }
+  },
+  "examine_clues": {
+    "text": "Examining the clues reveals a hidden panel in the wall. Behind the panel is a passage leading to another secret room filled with ancient artifacts and a large chest. You can:",
+    "choices": {
+      "1": {
+        "text": "Open the chest and see what’s inside.",
+        "next": "open_chest"
+      },
+      "2": {
+        "text": "Examine the ancient artifacts for more clues.",
+        "next": "examine_artifacts"
+      }
+    }
+  },
+  "break_curse": {
+    "text": "Attempting to break the curse is dangerous and requires all your skills and knowledge. After a long struggle, you manage to lift the curse, but the artifact is destroyed in the process. You can:",
+    "choices": {
+      "1": {
+        "text": "Leave the estate, satisfied with your accomplishment.",
+        "next": "leave_estate"
+      },
+      "2": {
+        "text": "Continue exploring the estate for more secrets.",
+        "next": "explore_more_secrets"
+      }
+    }
+  },
+  "escape_crypt": {
+    "text": "You decide to leave the artifact and make a quick escape from the crypt. As you exit, the estate begins to collapse. You can:",
+    "choices": {
+      "1": {
+        "text": "Run to the main gate to escape the collapsing estate.",
+        "next": "run_to_gate"
+      },
+      "2": {
+        "text": "Find a safe place to hide until the estate stops collapsing.",
+        "next": "hide_until_safe"
+      }
+    }
+  },
+  "navigate_hostile": {
+    "text": "Navigating through the hostile estate is difficult, but you manage to find a path leading to safety. Along the way, you discover a hidden treasure room. You can:",
+    "choices": {
+      "1": {
+        "text": "Take the treasure and continue to escape.",
+        "next": "take_and_escape"
+      },
+      "2": {
+        "text": "Ignore the treasure and focus on escaping.",
+        "next": "focus_escape"
+      }
+    }
+  },
+  "find_hidden_exit": {
+    "text": "Finding a hidden exit, you manage to escape the estate just in time. Outside, you regroup with your friends and share your adventure. You can:",
+    "choices": {
+      "1": {
+        "text": "Celebrate your escape and leave the estate.",
+        "next": "celebrate_leave"
+      },
+      "2": {
+        "text": "Plan to return and explore more when it’s safe.",
+        "next": "plan_return"
+      }
+    }
+  },
+  "retrieve_treasure": {
+    "text": "You retrieve the treasure from the hidden chamber. However, the estate’s enchantments react to the removal of the treasure, and you must escape quickly. You can:",
+    "choices": {
+      "1": {
+        "text": "Run through the main hall to the exit.",
+        "next": "run_main_hall"
+      },
+      "2": {
+        "text": "Find a hidden passage to avoid the enchantments.",
+        "next": "find_hidden_passage"
+      }
+    }
+  },
+  "search_chamber": {
+    "text": "Searching the chamber reveals a secondary treasure: a set of rare and valuable artifacts. However, the chamber begins to collapse as you take them. You can:",
+    "choices": {
+      "1": {
+        "text": "Leave the artifacts and focus on escaping.",
+        "next": "leave_and_escape"
+      },
+      "2": {
+        "text": "Try to take as many artifacts as you can while escaping.",
+        "next": "take_while_escaping"
+      }
+    }
+  },
+  "defend_escape": {
+    "text": "Defending against the magical defenses is challenging, but you manage to escape the room and find your way out of the estate. You can:",
+    "choices": {
+      "1": {
+        "text": "Leave the estate and share your story.",
+        "next": "share_story"
+      },
+      "2": {
+        "text": "Regroup with your friends and decide what to do next.",
+        "next": "regroup_and_decide"
+      }
+    }
+  },
+  "regroup_friends": {
+    "text": "You quickly leave the room and regroup with your friends. Together, you decide to leave the estate and return another day. You can:",
+    "choices": {
+      "1": {
+        "text": "Leave the estate for now and plan to return later.",
+        "next": "plan_to_return_later"
+      },
+      "2": {
+        "text": "Stay outside the estate and rest before deciding your next move.",
+        "next": "rest_before_deciding"
+      }
+    }
+  },
+  "examine_artifact": {
+    "text": "Examining the mysterious artifact reveals that it holds a map to a hidden treasure. You decide to follow the map and it leads you to a hidden part of the estate. You can:",
+    "choices": {
+      "1": {
+        "text": "Explore the hidden part of the estate for more clues.",
+        "next": "explore_hidden_part"
+      },
+      "2": {
+        "text": "Find the treasure using the map’s guidance.",
+        "next": "find_treasure_with_map"
+      }
+    }
+  },
+  "locate_treasure": {
+    "text": "Following the clues, you locate the treasure in a hidden room. The room is filled with gold, jewels, and ancient relics. You can:",
+    "choices": {
+      "1": {
+        "text": "Take the treasure and leave the estate quickly.",
+        "next": "take_and_leave_quickly"
+      },
+      "2": {
+        "text": "Examine the ancient relics for more information.",
+        "next": "examine_relics"
+      }
+    }
+  },
+  "secret_area": {
+    "text": "Following the map to the secret area, you discover a hidden laboratory filled with alchemical equipment and magical tomes. You can:",
+    "choices": {
+      "1": {
+        "text": "Search the laboratory for valuable items or clues.",
+        "next": "search_laboratory"
+      },
+      "2": {
+        "text": "Take the magical tomes and leave the estate.",
+        "next": "take_tomes_leave"
+      }
+    }
+  },
+  "subterranean_chamber": {
+    "text": "Entering the subterranean chamber, you find an ancient altar with strange symbols. The chamber seems to be a place of great power. You can:",
+    "choices": {
+      "1": {
+        "text": "Examine the altar and decipher the symbols.",
+        "next": "decipher_symbols"
+      },
+      "2": {
+        "text": "Search the chamber for hidden compartments or passages.",
+        "next": "search_chamber_compartments"
+      }
+    }
+  },
+
+  "deactivate_enchantment": {
+    "text": "Attempting to deactivate the enchantment, you discover a hidden mechanism that might control it. You can:",
+    "choices": {
+      "1": {
+        "text": "Activate the mechanism and see what happens.",
+        "next": "activate_mechanism"
+      },
+      "2": {
+        "text": "Leave the mechanism alone and exit the room.",
+        "next": "exit_room"
+      }
+    }
+  },
+  "unlock_secret_area": {
+    "text": "Using the keys, you unlock a secret area of the estate. Inside, you find a room filled with rare books and ancient scrolls. You can:",
+    "choices": {
+      "1": {
+        "text": "Take the books and scrolls for further study.",
+        "next": "take_books_scrolls"
+      },
+      "2": {
+        "text": "Look for hidden compartments within the room.",
+        "next": "look_hidden_compartments"
+      }
+    }
+  },
+  "search_more_greenhouse": {
+    "text": "Continuing your search in the greenhouse, you find a hidden door leading to a secret underground laboratory. You can:",
+    "choices": {
+      "1": {
+        "text": "Enter the laboratory to explore further.",
+        "next": "enter_lab"
+      },
+      "2": {
+        "text": "Leave the greenhouse and explore other parts of the estate.",
+        "next": "explore_other_parts"
+      }
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "start": {
+    "text": "You and your friends have entered the prestigious Galactic Race, a high-stakes interstellar competition. As you prepare for the race, you find yourself in the bustling spaceport with several options. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Inspect your spaceship for any needed repairs or upgrades.",
+        "next": "inspect_spaceship"
+      },
+      "2": {
+        "text": "Gather intel on your competitors and the race course.",
+        "next": "gather_intel"
+      },
+      "3": {
+        "text": "Visit the spaceport's market to purchase additional supplies.",
+        "next": "visit_market"
+      }
+    }
+  },
+  "inspect_spaceship": {
+    "text": "Inspecting your spaceship reveals some minor issues that need fixing. You can either:",
+    "choices": {
+      "1": {
+        "text": "Perform the repairs yourself to save time and money.",
+        "next": "repair_spaceship"
+      },
+      "2": {
+        "text": "Hire a professional mechanic to ensure everything is in top shape.",
+        "next": "hire_mechanic"
+      }
+    }
+  },
+  "gather_intel": {
+    "text": "Gathering intel on your competitors reveals some useful information about their strengths and weaknesses. You can:",
+    "choices": {
+      "1": {
+        "text": "Use this information to devise a strategy for the race.",
+        "next": "devise_strategy"
+      },
+      "2": {
+        "text": "Try to sabotage a competitor's ship.",
+        "next": "sabotage_competitor"
+      }
+    }
+  },
+  "visit_market": {
+    "text": "Visiting the spaceport market, you find various items and upgrades for your spaceship. You can:",
+    "choices": {
+      "1": {
+        "text": "Purchase advanced equipment to enhance your ship's performance.",
+        "next": "purchase_equipment"
+      },
+      "2": {
+        "text": "Buy emergency supplies in case of unexpected problems during the race.",
+        "next": "buy_supplies"
+      }
+    }
+  },
+  "repair_spaceship": {
+    "text": "Performing the repairs yourself is successful, but you notice that you have limited time left before the race begins. You can:",
+    "choices": {
+      "1": {
+        "text": "Quickly head to the race starting line and prepare for the competition.",
+        "next": "race_start"
+      },
+      "2": {
+        "text": "Take a few moments to relax and gather your thoughts before the race.",
+        "next": "relax_before_race"
+      }
+    }
+  },
+  "hire_mechanic": {
+    "text": "Hiring a professional mechanic ensures that your spaceship is in perfect condition, but it costs you a significant portion of your budget. You can:",
+    "choices": {
+      "1": {
+        "text": "Go to the starting line and focus on the race.",
+        "next": "race_start"
+      },
+      "2": {
+        "text": "Try to earn some extra credits by taking on a small side job.",
+        "next": "side_job"
+      }
+    }
+  },
+  "devise_strategy": {
+    "text": "Devise a strategy based on the intel you've gathered. Your plan involves utilizing a clever maneuver to gain an advantage. As the race starts, you must decide how to execute your strategy:",
+    "choices": {
+      "1": {
+        "text": "Execute the maneuver early to gain an early lead.",
+        "next": "early_lead"
+      },
+      "2": {
+        "text": "Wait for the right moment to implement the strategy for maximum impact.",
+        "next": "wait_moment"
+      }
+    }
+  },
+  "sabotage_competitor": {
+    "text": "Attempting to sabotage a competitor's ship is risky. If successful, you can potentially gain an advantage, but it might also backfire. You must decide:",
+    "choices": {
+      "1": {
+        "text": "Proceed with the sabotage and hope for the best.",
+        "next": "successful_sabotage"
+      },
+      "2": {
+        "text": "Abort the sabotage and focus on improving your own performance.",
+        "next": "focus_performance"
+      }
+    }
+  },
+  "purchase_equipment": {
+    "text": "Purchasing advanced equipment enhances your spaceship's performance. You are now ready to race with an improved ship. However, you notice the race course has unexpected obstacles. You can:",
+    "choices": {
+      "1": {
+        "text": "Adapt your strategy to handle the new obstacles.",
+        "next": "adapt_strategy"
+      },
+      "2": {
+        "text": "Attempt to navigate through the obstacles with your enhanced equipment.",
+        "next": "navigate_obstacles"
+      }
+    }
+  },
+  "buy_supplies": {
+    "text": "Buying emergency supplies ensures that you are prepared for any unexpected problems during the race. The race begins, and you face a series of challenges. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the supplies to overcome obstacles and continue racing.",
+        "next": "use_supplies"
+      },
+      "2": {
+        "text": "Try to avoid problems and rely on your initial performance.",
+        "next": "rely_performance"
+      }
+    }
+  },
+  "race_start": {
+    "text": "The race begins with a thrilling start. You face fierce competition and challenging obstacles. The outcome depends on how well you handle the race.",
+    "choices": {
+      "1": {
+        "text": "Push your spaceship to its limits and aim for first place.",
+        "next": "push_limits"
+      },
+      "2": {
+        "text": "Play it safe and focus on steady progress.",
+        "next": "steady_progress"
+      }
+    }
+  },
+  "relax_before_race": {
+    "text": "Relaxing before the race helps you stay calm and focused. As the race starts, you’re mentally prepared but face intense competition. You can:",
+    "choices": {
+      "1": {
+        "text": "Give it your all and try to overtake competitors.",
+        "next": "overtake_competitors"
+      },
+      "2": {
+        "text": "Maintain a steady pace and avoid risky maneuvers.",
+        "next": "steady_pace"
+      }
+    }
+  },
+  "side_job": {
+    "text": "Taking on a side job earns you extra credits but leaves you with less time to prepare. The race begins, and you face additional pressure. You can:",
+    "choices": {
+      "1": {
+        "text": "Use your extra credits to make last-minute improvements.",
+        "next": "last_minute_improvements"
+      },
+      "2": {
+        "text": "Focus on your existing strategy and try to compensate for the lost time.",
+        "next": "compensate_time"
+      }
+    }
+  },
+  "early_lead": {
+    "text": "Executing the maneuver early gives you a significant lead. However, you must stay vigilant as competitors may try to overtake you. You can:",
+    "choices": {
+      "1": {
+        "text": "Defend your position and maintain the lead.",
+        "next": "defend_lead"
+      },
+      "2": {
+        "text": "Increase speed to widen the gap further.",
+        "next": "increase_speed"
+      }
+    }
+  },
+  "wait_moment": {
+    "text": "Waiting for the right moment to implement your strategy proves effective. You gain a crucial advantage at a key point in the race. You can:",
+    "choices": {
+      "1": {
+        "text": "Push forward to secure your position.",
+        "next": "secure_position"
+      },
+      "2": {
+        "text": "Conserve energy and focus on maintaining your current rank.",
+        "next": "maintain_rank"
+      }
+    }
+  },
+  "successful_sabotage": {
+    "text": "Successfully sabotaging a competitor’s ship gives you an edge, but you must be cautious as other competitors might notice. You can:",
+    "choices": {
+      "1": {
+        "text": "Use the advantage to push for the lead.",
+        "next": "push_lead"
+      },
+      "2": {
+        "text": "Concentrate on optimizing your performance.",
+        "next": "optimize_performance"
+      }
+    }
+  },
+  "focus_performance": {
+    "text": "Focusing on improving your own performance without sabotage is a solid choice. The race progresses, and you find yourself in a tight competition. You can:",
+    "choices": {
+      "1": {
+        "text": "Increase your speed to gain an edge.",
+        "next": "increase_speed"
+      },
+      "2": {
+        "text": "Maintain a steady pace and avoid risky moves.",
+        "next": "steady_pace"
+      }
+    }
+  },
+  "adapt_strategy": {
+    "text": "Adapting your strategy to handle the obstacles proves effective. You maneuver through challenges with skill. The race becomes intense as you near the finish line. You can:",
+    "choices": {
+      "1": {
+        "text": "Push forward for a final sprint.",
+        "next": "final_sprint"
+      },
+      "2": {
+        "text": "Ensure steady progress and avoid risky moves.",
+        "next": "steady_progress"
+      }
+    }
+  },
+  "navigate_obstacles": {
+    "text": "Navigating through the obstacles with your enhanced equipment is successful, but the challenges increase as you approach the finish line. You can:",
+    "choices": {
+      "1": {
+        "text": "Push to the limit and aim for first place.",
+        "next": "aim_for_first"
+      },
+      "2": {
+        "text": "Focus on maintaining your position.",
+        "next": "maintain_position"
+      }
+    }
+  },
+  "use_supplies": {
+    "text": "Using the emergency supplies effectively helps you overcome unexpected problems. You find yourself in a strong position as the race nears its end. You can:",
+    "choices": {
+      "1": {
+        "text": "Push for a final push to secure a top position.",
+        "next": "final_push"
+      },
+      "2": {
+        "text": "Maintain your current position and avoid any risks.",
+        "next": "avoid_risks"
+      }
+    }
+  },
+  "rely_performance": {
+    "text": "Relying on your initial performance without using supplies proves challenging as unexpected issues arise. You must handle these challenges carefully. You can:",
+    "choices": {
+      "1": {
+        "text": "Push through the issues and aim for the best possible finish.",
+        "next": "push_through"
+      },
+      "2": {
+        "text": "Conserve your resources and finish the race as best as you can.",
+        "next": "conserve_resources"
+      }
+    }
+  },
+  "push_limits": {
+    "text": "Pushing your spaceship to its limits helps you secure a leading position. You cross the finish line first, emerging as the race champion. The victory is exhilarating, and you and your friends celebrate your success.",
+    "choices": {}
+  },
+  "steady_progress": {
+    "text": "Maintaining a steady pace ensures you finish the race without major issues. Although you don't win, you achieve a respectable position and learn valuable lessons for future races.",
+    "choices": {}
+  },
+  "overtake_competitors": {
+    "text": "Overtaking competitors with your newfound focus helps you climb the ranks. You finish in a strong position, and your effort is recognized with praise from the racing community.",
+    "choices": {}
+  },
+  "steady_pace": {
+    "text": "Maintaining a steady pace throughout the race allows you to finish in a solid position. Your consistent performance is appreciated, and you gain respect from other racers.",
+    "choices": {}
+  },
+  "last_minute_improvements": {
+    "text": "Making last-minute improvements boosts your spaceship's performance. Despite the limited time, you manage to compete effectively and achieve a top-three finish.",
+    "choices": {}
+  },
+  "compensate_time": {
+    "text": "Compensating for the lost time with a strong performance keeps you competitive. You finish the race with a commendable position, and your adaptability is noted.",
+    "choices": {}
+  },
+  "defend_lead": {
+    "text": "Defending your lead against fierce competitors proves successful. You cross the finish line first, celebrated as the race champion. The victory is sweet and well-deserved.",
+    "choices": {}
+  },
+  "increase_speed": {
+    "text": "Increasing your speed helps you surge ahead and finish first. Your performance is exceptional, and you celebrate your victory with your friends.",
+    "choices": {}
+  },
+  "secure_position": {
+    "text": "Securing your position ensures a strong finish. Although you don't win, your strategic approach results in a commendable performance and valuable experience.",
+    "choices": {}
+  },
+  "maintain_rank": {
+    "text": "Maintaining your rank throughout the race ensures a respectable finish. Your steady approach earns you recognition and respect among fellow racers.",
+    "choices": {}
+  },
+  "push_lead": {
+    "text": "Using the sabotage to push for the lead helps you secure a top position. You finish with a strong performance, though the ethics of your methods are questioned.",
+    "choices": {}
+  },
+  "optimize_performance": {
+    "text": "Optimizing your performance with a focus on efficiency leads to a solid finish. Your skill and determination are praised, and you finish in a commendable position.",
+    "choices": {}
+  },
+  "aim_for_first": {
+    "text": "Aiming for first place with all your strength leads to a dramatic finish. You cross the line first and are celebrated as the race champion.",
+    "choices": {}
+  },
+  "maintain_position": {
+    "text": "Maintaining your position in the final stretch leads to a respectable finish. Your consistent performance is acknowledged and appreciated.",
+    "choices": {}
+  },
+  "final_push": {
+    "text": "A final push with the emergency supplies helps you secure a top finish. You cross the finish line with a strong performance and receive accolades for your determination.",
+    "choices": {}
+  },
+  "avoid_risks": {
+    "text": "Avoiding risks with the supplies ensures a steady finish. Your careful approach results in a respectable position and a safe end to the race.",
+    "choices": {}
+  },
+  "push_through": {
+    "text": "Pushing through the issues and aiming for the best possible finish leads to a strong performance. You complete the race with a commendable result.",
+    "choices": {}
+  },
+  "conserve_resources": {
+    "text": "Conserving your resources allows you to finish the race with a solid position. Your strategic use of resources is appreciated, and you gain valuable experience.",
+    "choices": {}
+  }
+}

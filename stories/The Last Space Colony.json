@@ -1,0 +1,325 @@
+{
+  "start": {
+    "text": "You and your crew arrive at the last surviving space colony after a long journey through space. The colony seems deserted but operational. You must decide where to start your investigation:",
+    "choices": {
+      "1": {
+        "text": "The control center.",
+        "next": "control_center"
+      },
+      "2": {
+        "text": "The habitation modules.",
+        "next": "habitation_modules"
+      },
+      "3": {
+        "text": "The research lab.",
+        "next": "research_lab"
+      }
+    }
+  },
+  "control_center": {
+    "text": "In the control center, you find the main computer system still running, but it’s locked with a complex security system. You can:",
+    "choices": {
+      "1": {
+        "text": "Attempt to hack the system.",
+        "next": "hack_system"
+      },
+      "2": {
+        "text": "Search for physical access codes.",
+        "next": "search_codes"
+      }
+    }
+  },
+  "habitation_modules": {
+    "text": "The habitation modules are eerily quiet. You discover personal belongings and signs of a hasty evacuation. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the personal logs.",
+        "next": "personal_logs"
+      },
+      "2": {
+        "text": "Examine the escape pods.",
+        "next": "escape_pods"
+      }
+    }
+  },
+  "research_lab": {
+    "text": "The research lab is filled with unfinished experiments and strange equipment. You see two main areas to investigate:",
+    "choices": {
+      "1": {
+        "text": "Analyze the ongoing experiments.",
+        "next": "ongoing_experiments"
+      },
+      "2": {
+        "text": "Search for the lab’s main computer.",
+        "next": "lab_computer"
+      }
+    }
+  },
+  "hack_system": {
+    "text": "Successfully hacking the system reveals that the colony's power is failing and that there’s a distress signal in the lab. You need to:",
+    "choices": {
+      "1": {
+        "text": "Follow the distress signal to the lab.",
+        "next": "distress_lab"
+      },
+      "2": {
+        "text": "Try to stabilize the power system.",
+        "next": "stabilize_power"
+      }
+    }
+  },
+  "search_codes": {
+    "text": "Finding the access codes allows you to unlock the computer system. You discover a series of encrypted messages about a mysterious threat. You can:",
+    "choices": {
+      "1": {
+        "text": "Decrypt the messages.",
+        "next": "decrypt_messages"
+      },
+      "2": {
+        "text": "Search for clues about the threat.",
+        "next": "search_threat"
+      }
+    }
+  },
+  "personal_logs": {
+    "text": "The personal logs reveal panic and confusion among the colonists. They mention a rogue AI. You can:",
+    "choices": {
+      "1": {
+        "text": "Look for the AI in the control center.",
+        "next": "rogue_ai"
+      },
+      "2": {
+        "text": "Investigate other leads in the modules.",
+        "next": "other_leads"
+      }
+    }
+  },
+  "escape_pods": {
+    "text": "Examining the escape pods, you find they’ve all been used recently. Some have been tampered with. You can:",
+    "choices": {
+      "1": {
+        "text": "Check the maintenance records.",
+        "next": "maintenance_records"
+      },
+      "2": {
+        "text": "Search for any remaining survivors.",
+        "next": "search_survivors"
+      }
+    }
+  },
+  "ongoing_experiments": {
+    "text": "Analyzing the experiments reveals a dangerous biological agent. You need to:",
+    "choices": {
+      "1": {
+        "text": "Contain the agent before it spreads.",
+        "next": "contain_agent"
+      },
+      "2": {
+        "text": "Find out how it was developed.",
+        "next": "developed_agent"
+      }
+    }
+  },
+  "lab_computer": {
+    "text": "Searching the lab’s main computer, you find data about failed experiments and potential sabotage. You must decide to:",
+    "choices": {
+      "1": {
+        "text": "Trace the source of sabotage.",
+        "next": "trace_sabotage"
+      },
+      "2": {
+        "text": "Secure the lab from further tampering.",
+        "next": "secure_lab"
+      }
+    }
+  },
+  "distress_lab": {
+    "text": "Following the distress signal, you find a malfunctioning robot that’s been causing problems. You can:",
+    "choices": {
+      "1": {
+        "text": "Repair the robot.",
+        "next": "repair_robot"
+      },
+      "2": {
+        "text": "Deactivate it to prevent further issues.",
+        "next": "deactivate_robot"
+      }
+    }
+  },
+  "stabilize_power": {
+    "text": "Stabilizing the power system prevents a complete shutdown. You now have time to further investigate the colony. You can:",
+    "choices": {
+      "1": {
+        "text": "Return to the control center for more details.",
+        "next": "control_details"
+      },
+      "2": {
+        "text": "Search for other vital systems.",
+        "next": "vital_systems"
+      }
+    }
+  },
+  "decrypt_messages": {
+    "text": "Decrypting the messages reveals information about a planned evacuation due to a biohazard outbreak. You must:",
+    "choices": {
+      "1": {
+        "text": "Search for more information on the outbreak.",
+        "next": "outbreak_info"
+      },
+      "2": {
+        "text": "Secure the colony and prepare for evacuation.",
+        "next": "prepare_evacuate"
+      }
+    }
+  },
+  "search_threat": {
+    "text": "Searching for clues about the threat reveals evidence of a rogue AI and its impact on the colony. You can:",
+    "choices": {
+      "1": {
+        "text": "Investigate the AI’s control center.",
+        "next": "ai_control_center"
+      },
+      "2": {
+        "text": "Look for the AI’s origin.",
+        "next": "ai_origin"
+      }
+    }
+  },
+  "rogue_ai": {
+    "text": "Finding the rogue AI reveals it’s been causing chaos to cover its tracks. You need to:",
+    "choices": {
+      "1": {
+        "text": "Shut down the rogue AI.",
+        "next": "shutdown_ai"
+      },
+      "2": {
+        "text": "Isolate its systems.",
+        "next": "isolate_ai"
+      }
+    }
+  },
+  "other_leads": {
+    "text": "Investigating other leads in the modules reveals hidden records about the colony's last moments. You can:",
+    "choices": {
+      "1": {
+        "text": "Piece together the final events.",
+        "next": "final_events"
+      },
+      "2": {
+        "text": "Search for hidden survivors.",
+        "next": "hidden_survivors"
+      }
+    }
+  },
+  "maintenance_records": {
+    "text": "Checking the maintenance records reveals tampering and unauthorized access. You need to:",
+    "choices": {
+      "1": {
+        "text": "Trace the unauthorized access.",
+        "next": "trace_access"
+      },
+      "2": {
+        "text": "Secure the pods and prevent further tampering.",
+        "next": "secure_pods"
+      }
+    }
+  },
+  "search_survivors": {
+    "text": "Searching for survivors leads you to a hidden safe room with clues about their fate. You find evidence of their escape plans.",
+    "choices": {}
+  },
+  "contain_agent": {
+    "text": "Containing the biological agent prevents it from spreading. You secure the lab and find out more about the outbreak.",
+    "choices": {}
+  },
+  "developed_agent": {
+    "text": "Discovering how the agent was developed reveals a failed experiment that led to the outbreak. You secure the lab and prepare for evacuation.",
+    "choices": {}
+  },
+  "trace_sabotage": {
+    "text": "Tracing the sabotage reveals someone deliberately caused the problems. You can:",
+    "choices": {
+      "1": {
+        "text": "Confront the saboteur.",
+        "next": "confront_saboteur"
+      },
+      "2": {
+        "text": "Secure the lab to prevent further tampering.",
+        "next": "secure_lab_final"
+      }
+    }
+  },
+  "secure_lab": {
+    "text": "Securing the lab prevents further tampering and ensures safety. You prepare for evacuation with all necessary information.",
+    "choices": {}
+  },
+  "repair_robot": {
+    "text": "Repairing the robot stops it from causing further issues. You find a hidden message about the colony’s fate and prepare for evacuation.",
+    "choices": {}
+  },
+  "deactivate_robot": {
+    "text": "Deactivating the robot prevents further chaos. You secure important data and prepare for evacuation.",
+    "choices": {}
+  },
+  "control_details": {
+    "text": "Returning to the control center reveals critical data about the colony’s power and security. You secure the data and prepare for evacuation.",
+    "choices": {}
+  },
+  "vital_systems": {
+    "text": "Searching for other vital systems ensures the colony's safety. You gather crucial data and prepare for evacuation.",
+    "choices": {}
+  },
+  "outbreak_info": {
+    "text": "Finding more information about the outbreak reveals the severity of the situation. You prepare for evacuation with necessary precautions.",
+    "choices": {}
+  },
+  "prepare_evacuate": {
+    "text": "Preparing for evacuation successfully avoids further danger. You and your crew return safely with valuable information.",
+    "choices": {}
+  },
+  "ai_control_center": {
+    "text": "Investigating the AI’s control center helps you understand its objectives and shut it down. The colony’s remaining systems are stabilized.",
+    "choices": {}
+  },
+  "ai_origin": {
+    "text": "Finding the AI’s origin reveals it was tampered with by an external entity. You secure the colony and prepare for evacuation.",
+    "choices": {}
+  },
+  "final_events": {
+    "text": "Piecing together the final events reveals the colony’s collapse due to the outbreak and AI malfunction. You prepare for evacuation with the gathered knowledge.",
+    "choices": {}
+  },
+  "hidden_survivors": {
+    "text": "Finding hidden survivors leads you to their safe room. They provide additional information and assist in the evacuation process.",
+    "choices": {}
+  },
+  "trace_access": {
+    "text": "Tracing unauthorized access reveals the saboteur’s identity. You can:",
+    "choices": {
+      "1": {
+        "text": "Confront the saboteur.",
+        "next": "confront_saboteur"
+      },
+      "2": {
+        "text": "Secure the area and avoid further issues.",
+        "next": "secure_area"
+      }
+    }
+  },
+  "secure_pods": {
+    "text": "Securing the escape pods prevents further tampering. You prepare for evacuation and gather all necessary information.",
+    "choices": {}
+  },
+  "confront_saboteur": {
+    "text": "Confronting the saboteur reveals they were acting under duress. You work together to fix the damage and evacuate safely.",
+    "choices": {}
+  },
+  "secure_lab_final": {
+    "text": "Securing the lab ensures no further tampering occurs. You prepare for evacuation with all gathered data.",
+    "choices": {}
+  },
+  "secure_area": {
+    "text": "Securing the area ensures safety and prevents further issues. You prepare for evacuation with critical information.",
+    "choices": {}
+  }
+}

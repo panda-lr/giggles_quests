@@ -1,0 +1,168 @@
+{
+  "start": {
+    "text": "You and your friends, Max and Lily, have just stumbled upon a peculiar café while exploring an old, seemingly abandoned building. The café is cozy, with a warm glow and the enticing aroma of coffee. As you enter, you notice odd details: flickering lights, a jukebox that plays itself, and a menu with cryptic descriptions. What do you do first?",
+    "choices": {
+      "1": {
+        "text": "Order a mysterious drink from the menu.",
+        "next": "order_drink"
+      },
+      "2": {
+        "text": "Investigate the strange objects scattered around the café.",
+        "next": "investigate_objects"
+      }
+    }
+  },
+  "order_drink": {
+    "text": "You decide to try the drink labeled 'Quantum Espresso.' The moment you take a sip, reality seems to wobble. The café around you stretches and contracts like a rubber band, and suddenly, you and your friends find yourselves in a bizarre alternate dimension. The café is now run by Zorgon, an eccentric alien who speaks in riddles and wears a fez.",
+    "choices": {
+      "1": {
+        "text": "Help Zorgon fix a malfunctioning machine that seems crucial to your return.",
+        "next": "help_zorgon"
+      },
+      "2": {
+        "text": "Attempt to find another way back without Zorgon's help.",
+        "next": "find_way_back"
+      }
+    }
+  },
+  "investigate_objects": {
+    "text": "Among the scattered objects, you find a dusty book titled 'The Secrets of Time Travel.' Opening it reveals a hidden compartment with a mysterious device. As you examine the device, the lights flicker, and the café’s atmosphere becomes eerie and charged with an ominous energy. You sense that something big is about to happen.",
+    "choices": {
+      "1": {
+        "text": "Use the device to explore the café's hidden areas.",
+        "next": "use_device"
+      },
+      "2": {
+        "text": "Leave the café and seek help from the outside world.",
+        "next": "seek_help"
+      }
+    }
+  },
+  "help_zorgon": {
+    "text": "Zorgon explains that the machine is crucial for stabilizing the dimension. As you assist him, you uncover that the café exists between realities and needs constant maintenance to keep its delicate balance. Just as the machine starts to whir and hum, Zorgon thanks you and offers you a device that can return you to your original dimension. You and your friends are safely transported back, but the café now has an eerie aura of familiarity and foreboding.",
+    "choices": {
+      "1": {
+        "text": "Investigate the changes in the café and uncover its secrets.",
+        "next": "cafe_secrets"
+      },
+      "2": {
+        "text": "Leave the café and try to move on with your lives.",
+        "next": "move_on"
+      }
+    }
+  },
+  "find_way_back": {
+    "text": "You attempt to navigate the warped dimension, but the reality around you begins to unravel. Strange, shifting landscapes and bizarre creatures appear. You stumble upon a crumbling portal that seems to be your only hope. As you and your friends rush through it, you narrowly escape, but find yourselves in a dark alleyway back in your world, with no clear way to make sense of what happened.",
+    "choices": {
+      "1": {
+        "text": "Seek out an expert on dimensions to understand your experience.",
+        "next": "seek_expert"
+      },
+      "2": {
+        "text": "Try to forget the experience and return to your normal lives.",
+        "next": "return_normal"
+      }
+    }
+  },
+  "use_device": {
+    "text": "The device activates a series of hidden mechanisms, revealing secret rooms filled with cryptic symbols and odd contraptions. The café is revealed to be a nexus point of multiple realities, with each room representing a different world. As you explore, you accidentally trigger a dangerous artifact that begins to distort reality itself. You must now find a way to deactivate it before the entire café is consumed by chaos.",
+    "choices": {
+      "1": {
+        "text": "Attempt to deactivate the artifact before it’s too late.",
+        "next": "deactivate_artifact"
+      },
+      "2": {
+        "text": "Flee the café and hope to find a solution outside.",
+        "next": "escape_cafe"
+      }
+    }
+  },
+  "seek_help": {
+    "text": "You leave the café and encounter Dr. Frizzle, a quirky scientist with an obsession for time anomalies. He examines the device and tells you that the café was an interdimensional hub. With his help, you manage to fix the problems caused by the device and return to the café. You and your friends are able to leave the café safely, but Dr. Frizzle warns you that the café’s secrets might have left an indelible mark on your reality.",
+    "choices": {
+      "1": {
+        "text": "Investigate any lingering effects of the café on your reality.",
+        "next": "lingering_effects"
+      },
+      "2": {
+        "text": "Try to move on and forget about the café.",
+        "next": "move_on"
+      }
+    }
+  },
+  "cafe_secrets": {
+    "text": "Investigating the café reveals a series of hidden passages and ancient symbols etched into the walls. You discover that the café was built on a powerful ley line that connects multiple dimensions. The reality around you starts to shift again, and you realize that the café’s influence is far more profound than you imagined. You must decide whether to explore these new realities or seek help before things get worse.",
+    "choices": {
+      "1": {
+        "text": "Explore the newly revealed dimensions.",
+        "next": "explore_dimensions"
+      },
+      "2": {
+        "text": "Seek help from a knowledgeable source about the café's power.",
+        "next": "seek_knowledge"
+      }
+    }
+  },
+  "move_on": {
+    "text": "You and your friends decide to leave the café behind. Life returns to normal, but occasional strange occurrences and unexplainable events make you question whether you truly escaped the café’s influence. The adventure leaves you with a lingering sense of unease, and you can’t shake the feeling that the café is always just out of reach.",
+    "choices": {}
+  },
+  "seek_expert": {
+    "text": "You find an eccentric expert on dimensional anomalies who explains that the café was a gateway between realities. He offers to help you understand your experiences, but his methods are unconventional and unsettling. As he delves into your case, he hints that the café may have marked you in ways that could lead to more adventures—or dangers—down the line.",
+    "choices": {
+      "1": {
+        "text": "Continue working with the expert to uncover more about the café.",
+        "next": "continue_expert"
+      },
+      "2": {
+        "text": "Reject his help and try to return to a normal life.",
+        "next": "return_normal"
+      }
+    }
+  },
+  "return_normal": {
+    "text": "You attempt to return to your normal life, but the bizarre experiences leave you feeling like something is off. The café’s influence lingers, affecting your reality in subtle ways. Strange coincidences and inexplicable events become a part of your daily life, and you can’t shake the feeling that you’re still connected to the café in some way.",
+    "choices": {}
+  },
+  "deactivate_artifact": {
+    "text": "You manage to deactivate the artifact, stabilizing the café’s reality. Eldra, a wise and ancient being who runs the café, thanks you for your bravery. As a reward, Eldra gives you a map leading to other hidden realms. With a newfound sense of purpose, you and your friends leave the café, ready for the next adventure that awaits beyond the map’s edges.",
+    "choices": {}
+  },
+  "escape_cafe": {
+    "text": "As you flee the café, the artifact’s activation causes reality to fracture further. You find yourselves in a dystopian world where chaos reigns. You must navigate this new, harsh reality and find a way to survive. The café’s influence has irrevocably altered your path, and your journey is now a quest for survival and answers in this fractured world.",
+    "choices": {
+      "1": {
+        "text": "Search for a way to restore balance to the fractured reality.",
+        "next": "restore_balance"
+      },
+      "2": {
+        "text": "Focus on surviving and adapting to the new world.",
+        "next": "adapt_new_world"
+      }
+    }
+  },
+  "explore_dimensions": {
+    "text": "Exploring the new dimensions reveals a kaleidoscope of worlds, each with its own unique laws and inhabitants. Some worlds are peaceful, while others are hostile and unpredictable. Your adventures take you through fantastical landscapes and challenging scenarios, but you grow stronger and more knowledgeable with each experience. The journey reshapes your understanding of reality and your place within it.",
+    "choices": {}
+  },
+  "seek_knowledge": {
+    "text": "You seek out a renowned scholar on dimensional anomalies who provides insights into the café’s powers and its impact on the multiverse. He explains that the café’s influence might have far-reaching consequences. As you learn more, you discover that the café could be a key to unlocking hidden potentials and navigating complex realities. Your journey becomes one of discovery and exploration.",
+    "choices": {}
+  },
+  "lingering_effects": {
+    "text": "The lingering effects of the café manifest in odd ways. Unexplained phenomena and strange occurrences become part of your life. The experience has changed you, and you find yourself more attuned to the bizarre and extraordinary. The café's presence is a constant reminder of the adventure you embarked on, leaving you with a sense of wonder and curiosity about the unknown.",
+    "choices": {}
+  },
+  "continue_expert": {
+    "text": "Working with the expert reveals more about the café’s dimensions and its impact on reality. Your adventures with the expert uncover hidden truths and lead you to new discoveries. The knowledge you gain helps you navigate the complexities of the multiverse, making you a key player in the ongoing exploration of dimensional mysteries.",
+    "choices": {}
+  },
+  "adapt_new_world": {
+    "text": "In the dystopian world, you focus on survival and adaptation. The harsh environment tests your limits, but you find ways to thrive and build a new life. The experience transforms you into a resilient and resourceful individual, and the challenges you face shape your understanding of survival and resilience in a fractured reality.",
+    "choices": {}
+  },
+  "restore_balance": {
+    "text": "You embark on a quest to restore balance to the fractured reality. With determination and courage, you confront the forces causing the instability and manage to bring some semblance of order to the chaotic world. Your efforts are recognized, and you become a symbol of hope and restoration in the new world, paving the way for future harmony.",
+    "choices": {}
+  }
+}
